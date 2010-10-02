@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Завантажити помічник"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Завантажити прямо на ваш Synology Diskstation - живлення від JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Завантажити помічник Опції"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Детальна інформація про Diskstation"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Господар"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Порт"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Перевірте підключення"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Ім'я користувача"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Пароль"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Перевірити з перевірки повноважень"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Плагін Опції"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Приладова панель"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Експериментальний"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Налагоджувати"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Багато висновок на консоль"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Підключення ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Приєднуйтесь!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Таймаут!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Увійшли в систему!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Неправильний Логін!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Успішно Додано:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Немає файлів для завантаження черги ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Файл"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Прогрес"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "з"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Сторінка"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Завантаження ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Завантажити"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Завантажити всі"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Привіт-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Очікування ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Установки"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Завантаження зображень"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Привіт-Jack посилання"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Скачати з Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Помилка Відправлення Завантаження"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Завантаження успішно доданий"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Будь ласка, unjack перший"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Завантажити всі файли"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Завантажити всі зображення"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Ви впевнені, що хочете завантажити"
+  },
+
+  "contentscript_files":
+  {
+    "message": "файли"
+  },
+
+  "contentscript_images":
+  {
+    "message": "зображення"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Скасувати"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Неможливо Логін, перевірити ім'я користувача, пароль і мережеву адресу в diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "завершено!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Нове оновлення доступно!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Перейти до розширень. Натисніть розробників режиму, а потім оновлення розширень зараз"
+  }
+
+}
+

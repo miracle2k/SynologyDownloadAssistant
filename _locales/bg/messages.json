@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Изтегляне асистент"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Изтегляне директно на вашия Synology Diskstation - Осъществено от JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Изтегляне помощник Опции"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Детайли"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Домакин"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Пристанище"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Проверка на връзката"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Потребителско име"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Парола"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Проверка на пълномощията"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plug-in Опции"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Табло"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Експериментален"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Много конзола продукция"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Свързване ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Свързани!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Изтече!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Влязъл!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Неправилно Login!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Успешно добавяне:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Не файлове за изтегляне на изтегляне опашка ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Име на файла"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Напредък"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "от"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Страница"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Сваляне на ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Изтегляне"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Свалете всички"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "В режим на готовност ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Настройки"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Изтегляне на изображения"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack връзки"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Ръководител"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Изтегляне с Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Грешка при подаване на сваляне"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Добавен успешно сваляне"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Моля unjack първи"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Изтегляне на всички файлове"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Изтегляне Още снимки"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Наистина ли искате да изтеглите"
+  },
+
+  "contentscript_files":
+  {
+    "message": "файлове"
+  },
+
+  "contentscript_images":
+  {
+    "message": "снимка"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Задрасквам"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Невъзможно е да влезете, проверете потребителско име, парола и адрес на мрежата си diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "е завършил!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Нова актуализация на разположение!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Към разширения. Кликнете Проект режим и след това Update разширения сега"
+  }
+
+}
+

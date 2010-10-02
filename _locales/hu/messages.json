@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Letöltés Átirányító"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Közvetlen letöltés a Synology NAS-ra - JQuery támogatással!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Letöltés Átirányító beállítások"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "NAS részletek"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Elérési cím"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Kapcsolat ellenőrzése"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Felhasználó"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Jelszó"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Ellenőrzés"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Bővítmény beállításai"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Műszerfal"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Kísérleti mód"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Nyomkövetés"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Konzol kimenetek"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Kapcsolódás..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Csatlakoztatva!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Időtúllépési hiba!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Ellenőrzés rendben!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Hibás név vagy jelszó!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Sikeresen hozzáadva : "
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Nincs letöltés a sorban..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Fájlnév"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Letöltések folyamata"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "/"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Oldal"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Letöltés..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "Cím"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Letöltés"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Állományok letöltése"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Link eltérítés"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Készenlét..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Beállítások"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Képek letöltése"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Linkek eltérítése"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Letöltéskezelő"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Letöltés átirányítása NAS-ra"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Hiba átirányítás közben"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "A letöltés sikeresen átirányítva"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Kapcsold ki először a link eltérítést"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Minden állomány letöltése"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Minden kép letöltése"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Biztosan le akarod tölteni?"
+  },
+
+  "contentscript_files":
+  {
+    "message": "fájl"
+  },
+
+  "contentscript_images":
+  {
+    "message": "kép"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Mégse"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Nem tudok belépni, ellenőrizd a felhasználói nevet, a jelszót és a NAS hálózati elérését"
+  },
+
+  "page_background_completed":
+  {
+    "message": "sikeresen letöltve!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Frissítés elérhető!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Menj át Kiterjesztésekbe, majd frissítsd a bővítményt"
+  }
+
+
+}

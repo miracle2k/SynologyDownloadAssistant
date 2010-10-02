@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology社は、アシスタントのダウンロード"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "ダウンロードしてSynology社Diskstationに直接 - 電源はJQueryで！"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology社は、アシスタントのダウンロードオプション"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation詳細"
+  },
+
+  "page_options_host": 
+  {
+    "message": "ホスト"
+  },
+
+  "page_options_port": 
+  {
+    "message": "ポート"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "接続を確認"
+  },
+
+  "page_options_username": 
+  {
+    "message": "ユーザー名"
+  },
+
+  "page_options_password": 
+  {
+    "message": "パスワード"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "資格を確認する"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "プラグインのオプション"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "ダッシュボード"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "実験的"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "デバッグ"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "コンソールの多くは、出力"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "接続中..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "接続！"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "タイムアウト！"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "ログインしました！"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "不適切なログイン！"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "正常に追加されました："
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "ダウンロードキューにダウンロードできない..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "ファイル名"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "進歩"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "の"
+  },
+
+  "page_popup_page":
+  {
+    "message": "ページ"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "ダウンロード..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "のURL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "ダウンロード"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "すべてダウンロード"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "ハイジャック"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "スタンバイ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "設定"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "ダウンロード画像"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "ハイジャックリンク"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "ダウンロードマネージャ"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "ダウンロードDiskstationで"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "エラーがダウンロード送信"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "正常にダウンロードされました"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "ごunjack最初の"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "ダウンロードは、すべてのファイル"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "ダウンロードの全画像"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "あなたはあなたがダウンロードしてもよろしい"
+  },
+
+  "contentscript_files":
+  {
+    "message": "ファイル"
+  },
+
+  "contentscript_images":
+  {
+    "message": "イメージズ"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "キャンセル"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "ことができない、ログインするユーザー名、パスワードとdiskstationへのネットワークアドレスを確認"
+  },
+
+  "page_background_completed":
+  {
+    "message": "完了しています！"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "新たにご利用いただけます更新！"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "拡張子に移動します。 [開発モードとし、更新拡張する"
+  }
+
+}
+

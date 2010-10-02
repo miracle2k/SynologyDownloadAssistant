@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology βοηθού λήψης"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Κατεβάσετε απευθείας στο Synology Diskstation σας - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology βοηθού λήψης Options"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Λεπτομέρειες"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Υποδοχής"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Λιμάνι"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Ελέγξτε Σύνδεση"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Όνομα Χρήστη"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Κωδικός πρόσβασης"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Ελέγξτε Διαπιστευτήρια"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Επιλογές"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Ταμπλό"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Πειραματική"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Παρτίδες της κονσόλας εξόδου"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Σύνδεση ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Συνδεδεμένοι!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Εξαντλήθηκε το χρονικό όριο!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Συνδεδεμένος!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Εσφαλμένη Login!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Προστέθηκε με επιτυχία:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Δεν λήψεις σε download ουρά ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Filename"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Πρόοδος"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "του"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Σελίδα"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Κατεβάζω ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download Όλα"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Αναμονής ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Ρυθμίσεις"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download Εικόνες"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack συνδέσεις"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Με Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Σφάλμα Υποβολή Λήψη"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Επιτυχώς Προστέθηκε Λήψη"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Παρακαλώ unjack πρώτη"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Λήψη Αρχείων Όλα"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Download Όλες οι εικόνες"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Είστε σίγουροι ότι θέλετε να κατεβάσετε"
+  },
+
+  "contentscript_files":
+  {
+    "message": "αρχεία"
+  },
+
+  "contentscript_images":
+  {
+    "message": "εικόνων"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Άκυρο"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Μπορείτε να συνδεθείτε, ελέγξτε το όνομα χρήστη, κωδικό πρόσβασης και η διεύθυνση δικτύου για diskstation σας"
+  },
+
+  "page_background_completed":
+  {
+    "message": "έχει ολοκληρωθεί!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Νέα ενημερωμένη έκδοση που υπάρχει!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Πηγαίνετε στο επεκτάσεις. Κάντε κλικ στο κουμπί Developer mode και στη συνέχεια Ενημέρωση επεκτάσεις τώρα"
+  }
+
+}
+

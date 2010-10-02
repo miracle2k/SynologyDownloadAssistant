@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology ajudant de descàrrega"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Descarregar directament al telèfon de Synology Diskstation - Desenvolupat per jQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Opcions de descàrrega Auxiliar"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Detalls"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Amfitrió"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Comproveu la connexió"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Nom d'usuari"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Contrasenya"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Entrades de Verificació de Poders"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin d'Opcions"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Tauler d'instruments"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimental"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Depurar"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Les porcions de sortida de la consola"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Connectant ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connectat!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Temps d'espera esgotat!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Identificats!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Nom incorrecte!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Ha afegit:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "No hi ha descàrregues en cua de descàrrega ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Nom d'arxiu"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Progrés"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "de"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Pàgina"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Descarregant ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Descarregar"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Descarregar tots"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Espera ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Configuració"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Descarregar imatges"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack enllaços"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Amb Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Descarregar presentació d'error"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Ha afegit Descarregar"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Si us plau, primer unjack"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Descarregar tots els arxius"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Descarregar totes les imatges"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Esteu segur que voleu descarregar"
+  },
+
+  "contentscript_files":
+  {
+    "message": "arxius"
+  },
+
+  "contentscript_images":
+  {
+    "message": "imatges"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Cancel"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "No es pot accedir, comproveu el nom d'usuari, contrasenya i adreça de xarxa al seu diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "ha acabat!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Nova actualització disponible!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Anar a les extensions. Feu clic per desenvolupadors manera i després actualització de les extensions d'ara"
+  }
+
+}
+

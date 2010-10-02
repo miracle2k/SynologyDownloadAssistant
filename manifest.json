@@ -1,0 +1,33 @@
+{
+  "name": "__MSG_chrome_extension_name__",
+  "version": "1.75",
+  "description": "__MSG_chrome_extension_description__",
+  "default_locale": "en_US",
+  "icons": 
+   {
+      "16": "images/16.png",
+      "48": "images/48.png",
+      "128": "images/128.png" 
+   },
+  "background_page": "background.html",
+  "options_page": "options.html",  
+  "browser_action": 
+  {
+     "default_icon": "images/16.png",
+     "default_title": "__MSG_chrome_extension_name__",
+     "popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://*/*","https://*/*"],
+      "js": [ "javascript/jq.js" , "javascript/jqui.js" , "javascript/hm.js" , "javascript/fo.js" , "javascript/content_script.js" ],
+      "css" : [ "css/hm.css" , "css/jqui.css" ]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "notifications",
+    "http://*/*", 
+    "https://*/*"
+  ]
+}

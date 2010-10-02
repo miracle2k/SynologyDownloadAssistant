@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Parsisiųsti padėjėjas"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Atsisiųsti tiesiai į savo Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Parsisiųsti asistentas Funkcijos"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation išsami informacija"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Priimančiosios"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Uostas"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Patikrinkite jungtis"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Vartotojo vardas"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Slaptažodis"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Patikrinkite Kvalifikacija"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Įskiepis Funkcijos"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Valdymo skydelis"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Eksperimentinis"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Derinimo"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Daug konsolės"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Prisijungimas ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Prisijunkite!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Baigėsi laikas!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Prisijungęs!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Neteisingas prisijungimo!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Sėkmingai Pridėta:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Nr atsisiųsti eilėje parsisiųsti ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Failo pavadinimas"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Pažanga"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "iš"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Puslapis"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Atsisiųsti ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Parsisiųsti"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Parsisiųsti Visos"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Budėjimo ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Nustatymai"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Atsisiųsti vaizdai"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack Nuorodos"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Parsisiųsti vadovas"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Atsisiųsti Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Klaida pateikiant Parsisiųsti"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Sėkmingai Parašytas Parsisiųsti"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Prašome unjack pirmas"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Parsisiųsti Visi failai"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Atsisiųsti visas nuotraukas"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Ar tikrai norite atsisiųsti"
+  },
+
+  "contentscript_files":
+  {
+    "message": "failai"
+  },
+
+  "contentscript_images":
+  {
+    "message": "nuotraukos"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Atšaukti"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Nepavyko prisijungti, patikrinkite savo vartotojo vardą, slaptažodį ir tinklo adresą diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "baigė!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Naujas atnaujinimas!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Grįžti į pratęsimų. Spauskite Firma būdas ir tada atnaujinkite pratęsti dabar"
+  }
+
+}
+

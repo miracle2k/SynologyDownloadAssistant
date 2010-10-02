@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Pobierz bezpośrednio do Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant Opcje"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Szczegóły"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Host"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Sprawdź połączenie"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Nazwa użytkownika"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Hasło"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Sprawdź Referencje"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Opcje wtyczki"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Tablica rozdzielcza"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Eksperymentalny"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Wiele konsoli"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Łączenie ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Podłączone!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Przekroczono limit czasu!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Zalogowany!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Logowanie nieprawidłowe!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Powodzeniem Dodano:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Pliki do pobrania w download nie ma kolejki ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Nazwa pliku"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Postęp"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "z"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Strona"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Pobieranie ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Pobierz"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Wszystkie pobrania"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Gotowości ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Ustawienia"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Zdjęcia do pobrania"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack linki"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Pobierz z Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Przesyłanie Pobierz błąd"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Dodano pomyślnie Pobierz"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Proszę unjack pierwszy"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Wszystkie pliki do pobrania"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Więcej zdjęć do pobrania"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Czy na pewno chcesz pobrać"
+  },
+
+  "contentscript_files":
+  {
+    "message": "akta"
+  },
+
+  "contentscript_images":
+  {
+    "message": "zdjęć"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Anulować"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Nie można się zalogować, sprawdź nazwę użytkownika, hasło i adres sieć do diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "zakończył!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Nowa aktualizacja dostępna!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Przejdź do rozszerzenia. Kliknij, tryb i deweloperów rozszerzeń Aktualizuj teraz"
+  }
+
+}
+

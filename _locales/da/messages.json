@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Download direkte til din Synology DiskStation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant Valg"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "DiskStation Detaljer"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Host"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Check Connection"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Brugernavn"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Adgangskode"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Check Prøvelse"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Valg"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Instrumentbræt"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Eksperimentel"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Masser af konsol output"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Tilslutning ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connected!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Tidsindstillet ud!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Logget ind!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Forkert ind!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Succesfuld Tilføjet:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Ingen downloads i download kø ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Filnavn"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Fremskridt"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "af"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Page"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Downloading ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download alle"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Standby ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Indstillinger"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download billeder"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack links"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Med DiskStation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Fejl Indsendelse Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Succesfuld Tilføjet Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Venligst unjack første"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Download alle filer"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Download alle billeder"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Er du sikker på du vil hente"
+  },
+
+  "contentscript_files":
+  {
+    "message": "filer"
+  },
+
+  "contentscript_images":
+  {
+    "message": "billeder"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Annuller"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Kan ikke logge ind, skal du kontrollere brugernavn, password og netværk adresse til din DiskStation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "har afsluttet!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Ny opdatering til rådighed!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Gå til udvidelser. Klik Developer tilstand og derefter Update extensions nu"
+  }
+
+}
+

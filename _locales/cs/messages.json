@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Stáhnout asistent"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Stáhnout přímo do svého Synology Diskstation - Powered JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Stáhnout asistent Možnosti"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Podrobnosti"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Hostitel"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Přístav"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Zkontrolujte připojení"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Uživatelské jméno"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Heslo"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Zkontrolujte, zda pověření"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Možnosti"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Palubní deska"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimentální"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Ladit"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Spousta konzoli"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Připojení ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Připojeno!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Vypršel časový limit!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Přihlášen!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Nesprávné přihlásit!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Úspěšně přidán:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Ne ke stažení ve frontě stahování ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Jméno souboru"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Pokrok"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "z"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Strana"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Stahování ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Stáhnout"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Stáhnout všechny"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "V pohotovostním režimu ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Nastavení"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Stáhnout obrázky"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack odkazy"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Stáhněte si s Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Chyba při odesílání ke stažení"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Úspěšně přidán ke stažení"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Prosím unjack první"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Stáhněte si všechny soubory"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Stáhnout všechny obrázky"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Jste si jisti, že chcete stáhnout"
+  },
+
+  "contentscript_files":
+  {
+    "message": "soubory"
+  },
+
+  "contentscript_images":
+  {
+    "message": "Obrázky"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Zrušit"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Nelze se přihlásit, podívejte se na uživatelské jméno, heslo a síťové adresy na vaše diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "byl dokončen!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Nová aktualizace je k dispozici!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Přejít na rozšíření. Klikněte pro vývojáře režim a pak Update rozšíření nyní"
+  }
+
+}
+

@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Msaidizi"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Download moja kwa moja Synology yako Diskstation - Powered na JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Options Msaidizi"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Details"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Mwenyeji"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Angalia Connection"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Jina la mtumiaji"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Password"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Angalia sifa"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Options"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Dashibodi"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Majaribio"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Kura ya pato console"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Kuunganisha ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connected!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Wakati muafaka nje!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Watumiaji katika!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Login sahihi!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Mafanikio Added:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Hakuna downloads katika foleni download ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Filename"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Maendeleo"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "ya"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Page"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Mapakuzi ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Shusha zote"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Standby-..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Vipimo"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Shusha Picha"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack viungo"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Meneja"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Kwa Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Makosa Inawasilisha Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Added Download mafanikio"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Tafadhali unjack kwanza"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Shusha zote Files"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Shusha zote Picha"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Una uhakika unataka shusha"
+  },
+
+  "contentscript_files":
+  {
+    "message": "files"
+  },
+
+  "contentscript_images":
+  {
+    "message": "picha"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Kufuta"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Haiwezi kuingia, angalia jina la mtumiaji, password na kushughulikia mtandao wa diskstation yako"
+  },
+
+  "page_background_completed":
+  {
+    "message": "amekamilisha!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Mpya update inapatikana!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Nenda upanuzi. Click Developer Mwisho mode na kisha upanuzi sasa"
+  }
+
+
+}

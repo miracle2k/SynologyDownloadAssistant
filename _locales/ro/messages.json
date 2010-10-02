@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Descărcaţi Asistent"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Descărcaţi direct pe Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Descărcaţi Opţiuni Asistent"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Detalii"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Gazdă"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Verificaţi conexiunea"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Nume de utilizator"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Parolă"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Verificaţi Acreditari"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Dop Opţiuni"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Tablou de bord"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimental"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Depanare"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "O mulţime de consolă de ieşire"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Conectarea ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Conectat!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Expirat!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Logat!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Conectare incorectă!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Adăugat cu succes:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Nr descărcări în coada download ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Nume de fişier"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Progres"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "de"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Pagină"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Descărcarea ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL-ul"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Descărcaţi"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Descărcaţi Toate"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "De a º teptare ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Setări"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Descarca Imagini"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack link-uri"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Drum liber cu Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Eroare Trimiterea Descărcaţi"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Descărcaţi adăugat cu succes"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Vă rugăm să unjack prima"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Descărcaţi Toate fişierele"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Descărcaţi Toate Imagini"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Sunteţi sigur că doriţi să descărcaţi"
+  },
+
+  "contentscript_files":
+  {
+    "message": "fişiere"
+  },
+
+  "contentscript_images":
+  {
+    "message": "imagini"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Anula"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Imposibil de login, a verifica numele de utilizator, parola şi adresa de reţea pentru a diskstation dvs."
+  },
+
+  "page_background_completed":
+  {
+    "message": "sa terminat!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Nou update disponibile!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Du-te la extensii. Faceţi clic pe dezvoltatori modul şi apoi Actualizare extensii acum"
+  }
+
+
+}

@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Assistant Download"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Indirin Synology Diskstation Doğrudan - Powered JQuery tarafından!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Yardımcısı İndirme Seçenekleri"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Detayları"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Host"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Liman"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Bağlantısını kontrol edin"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Kullanıcı Adı"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Şifre"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Kimlik bilgilerini kontrol edin"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Seçenekleri"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Gösterge paneli"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Deneysel"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Konsol sürü çıkış"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Bağlanıyor ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Bağlı!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "zaman aşımına uğradı!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "içinde Girildi!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Hatalı Giriş!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Başarıyla Eklendi:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "download kuyrukta Hiçbirşey indirmede ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Filename"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Ilerleme"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "in"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Sayfa"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Indiriliyor ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download Tüm"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Bekleme ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Ayarlar"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download Görüntüler"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack linkler"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Diskstation ile"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Hata Download Gönderilmesi"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Başarıyla Download eklendi"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Lütfen unjack ilk"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Download Tüm Dosyalar"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Download Tüm Görüntüleri"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Are sen indirmek istediğinizden emin"
+  },
+
+  "contentscript_files":
+  {
+    "message": "resimler"
+  },
+
+  "contentscript_images":
+  {
+    "message": "görüntüler"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Iptal"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Yapamaz, giriş için kullanıcı adı, şifre ve diskstation ağ adresi kontrol edin"
+  },
+
+  "page_background_completed":
+  {
+    "message": "tamamladı!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Yeni kullanıma sunulan bir güncelleştirmenin!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "uzantıları gidin. Tıkırtı Developer modu ve ardından Update uzantıları şimdi"
+  }
+
+}
+

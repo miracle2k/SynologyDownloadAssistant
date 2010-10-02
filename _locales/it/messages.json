@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Scaricare direttamente sul tuo Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Opzioni di download Synology Assistant"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Dettagli Diskstation"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Ospite"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Porto"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Controllare il collegamento"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Nome utente"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Password"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Controllare le credenziali"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Opzioni"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Cruscotto"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Sperimentale"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Un sacco di output su console"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Connessione in corso ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connected!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Timeout!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Loggato!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Login non corretto!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Correttamente aggiunto:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Nessun download in coda di download ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Nome del file"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Progressi"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "di"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Pagina"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Downloading ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Scarica tutto"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Attesa ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Impostazioni"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Immagini da scaricare"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack link"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Scarica Con Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Errore di Invio Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Correttamente aggiunto Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Si prega di unjack prima"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Scarica tutti i file"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Scarica tutte le immagini"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Sei sicuro che si desidera scaricare"
+  },
+
+  "contentscript_files":
+  {
+    "message": "file"
+  },
+
+  "contentscript_images":
+  {
+    "message": "immagini"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Annullare"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Impossibile accedere, controllare il nome utente, password e indirizzo di rete alla diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "ha completato!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Nuovo aggiornamento disponibile!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Vai a estensioni. Clicca Developer mode e poi aggiornamento per le estensioni ora"
+  }
+
+
+}

@@ -1,0 +1,280 @@
+<html>
+<head>
+	<script type="text/javascript" src="javascript/common.js"></script>
+	<script type="text/javascript" src="javascript/jq.js"></script>
+	<script language='javascript'>		
+
+		var loggedon = false;
+		var username = encodeURIComponent( localStorage.getItem( "username" ) );
+		var password = encodeURIComponent( localStorage.getItem( "password" ) );	
+		var host = localStorage.getItem( "host" );
+		var port = localStorage.getItem( "port" );
+
+		var alerts = new Array();
+
+		function debug( msg )
+		{
+			if( localStorage.getItem( "debug" ) == 1 )
+			{
+				console.log( msg );
+			}
+		}
+
+
+		function getToken()
+		{		
+			var loginurl = "http://" + localStorage.getItem( "host" ) + ":";
+			loginurl += localStorage.getItem( "port" );
+			loginurl += "/download/download_redirector.cgi?action=login&username=";
+			loginurl += encodeURIComponent( localStorage.getItem( "username" ) );
+			loginurl += "&passwd=" + encodeURIComponent( localStorage.getItem( "password" ) );
+
+			var token = "";
+			debug( "Backgroundpage : getToken() : loginurl = " + loginurl );
+
+			var data = $.ajax({ type: "GET", url: loginurl , async: false }).responseText;
+
+			if ( data.indexOf( "true" ) > -1 )
+			{
+				var stuff = data.split( "," );
+				var tokenstr = stuff[ 0 ].split( "\"" );
+				token = tokenstr[ 3 ];	
+			}
+			else
+			{
+				token = false;
+			}	
+			
+			debug( "Backgroundpage : getToken() : " + "Session Token : " + token );
+
+			return token;
+		}
+
+
+		function downloadTorrent( token , url )
+		{			
+			var downloadurl = "http://" + localStorage.getItem( "host" ) + ":";
+			downloadurl += localStorage.getItem( "port" ) + "/download/download_redirector.cgi?id=";
+			downloadurl += token + "&action=addurl&username=";
+			downloadurl += encodeURIComponent( localStorage.getItem( "username" ) ) + "&url=" + url;
+
+			var data = $.ajax({ type: "GET", url: downloadurl , async: false }).responseText;
+			//localStorage[ "downloads" ] = localStorage[ "downloads" ] + "," + url;
+			_gaq.push(['_trackEvent', 'download', 'url', url ]);
+
+			debug( "Backgroundpage : downloadTorrent( token , url ) : " + "Requested : " + downloadurl );
+			debug( "Backgroundpage : downloadTorrent( token , url ) : " + "Response : " + data );
+		
+			return data;		
+		}
+
+
+		function linkHandler( request , sender , callback )
+		{
+			if( loggedon == false )
+			{			
+				var token = getToken( encodeURIComponent( localStorage.getItem( "username" ) ) , encodeURIComponent( localStorage.getItem( "password" ) ) );
+				loggedon = true;
+			}
+
+			if( request.action == 'add' )
+			{		
+				var token = getToken( encodeURIComponent( localStorage.getItem( "username" ) ) , encodeURIComponent( localStorage.getItem( "password" ) ) );
+
+				if( !token )
+				{		
+					var msg = {
+						msg: chrome.i18n.getMessage( "page_background_loginerror" ),
+						type: "error"
+					};	
+					callback( msg );
+
+					debug( "Backgroundpage : linkHandler( request , sender , callback ) : " + "Login Error" );
+
+					return;
+				}
+				else
+				{
+		
+					var data = downloadTorrent( token , encodeURIComponent( request.torrent ) );
+					debug( data );			
+					var msg = {
+						msg: data,
+						type: "success"
+					};
+
+					_gaq.push( [ '_trackEvent' , 'Download' , 'torrent', request.torrent ] );
+					debug( "Backgroundpage : linkHandler( request , sender , callback ) : " + "Login Successful" );
+
+					callback( msg ); 				
+				}
+			}
+			else if( request.action == 'status' )
+			{
+				var checkurl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/download/downloadman.cgi?_dc=1279970294489&action=getall&start=0&limit=1000&sort=task_id&dir=ASC";			
+
+				debug( "Backgroundpage : linkHandler() : status request " + checkurl );
+
+				$.getJSON( checkurl , function( data ) 
+				{		
+					debug( "Backgroundpage : linkHandler() : status request data " + data );		
+					$.each( data.items , function( index , itemdata )
+					{
+						if( itemdata.status == "TASK_FINISHED" )
+						{	
+							var text = itemdata.filename + " " + chrome.i18n.getMessage( "page_background_completed" );
+							var alertmsg = { 
+								msg: text,
+								type: "status"
+							};
+						
+							alerts.push( alertmsg );	
+							debug( "Backgroundpage : linkHandler() : request.action status " + alertmsg );				
+						}
+					}); 	
+				
+					if( alerts.length > 0 )
+					{		
+						callback( alerts );
+						alerts = new Array();
+					}						
+				});			
+			}
+			else if( request.action == 'speed' )
+			{
+				var checkurl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/download/downloadman.cgi?_dc=1279970294489&action=getall&start=0&limit=1000&sort=task_id&dir=ASC";			
+
+				$.getJSON( checkurl , function( data ) 
+				{	
+					var alertmsg = { 
+						downspeed: data.total_down
+					};
+					callback( alertmsg ); 	
+					debug( "Backgroundpage : linkHandler() : request.action speed " + alertmsg );
+				});			
+			}
+			else if( request.action == 'translate' )
+			{
+				var data = { 
+					key: request.option,
+					value: chrome.i18n.getMessage( request.option )
+				};	
+				callback( data ); 			
+			}
+			else if( request.action == 'setting' )
+			{	
+				if( request.option == "hijack" )
+				{
+					var data = { 
+						val: localStorage.getItem( request.option ),
+						types : localStorage.getItem( "hijacked" )
+					};	
+					callback( data ); 	
+					debug( "Backgroundpage : linkHandler() : request.setting " + request.option );	
+				}
+				else
+				{
+					var data = { 
+						val: localStorage.getItem( request.option )
+					};	
+					callback( data ); 	
+					debug( "Backgroundpage : linkHandler() : request.setting " + request.option );	
+				}					
+			}
+			else
+			{
+				// do nothing
+			}
+		}	
+
+
+		if( localStorage.getItem( "username" ) === null || localStorage.getItem( "password" ) === null || localStorage.getItem( "host" ) === null || localStorage.getItem( "port" ) === null || localStorage.getItem( "hijack" ) === null )
+		{
+			chrome.tabs.create( { 'url' : chrome.extension.getURL( 'options.html' ) } , function( tab ) 
+			{
+				debug( "Backgroundpage : linkHandler() : " + "Settings not ready " );
+				_gaq.push(['_trackEvent', 'Installation', 'Version', version ]);
+				_gaq.push(['_trackEvent', 'Installation', 'Language', version ]);
+			});
+		}
+
+		if( localStorage.getItem( "version" ) != version )
+		{
+			chrome.tabs.create( { 'url' : chrome.extension.getURL( 'update.html' ) } , function( tab ) 
+			{
+				debug( "Backgroundpage : linkHandler() : " + "Settings not ready " );
+				_gaq.push(['_trackEvent', 'Installation', 'Version', window.navigator.language ]);
+			});
+		}
+
+
+
+		chrome.extension.onRequest.addListener( linkHandler );
+
+
+		$.ajax(
+		{
+			type: 'GET',
+			url: "https://chrome.google.com/extensions/detail/ejfggpgociiecmnjgaiofolejhpmndbb?hl=en",
+			dataType: "html",
+			success: function( html )
+			{
+				_gaq.push(['_trackEvent', 'Version', 'check', '' ]);
+				var re = new RegExp( "Version [0-9]\.[0-9][0-9]" );
+ 				var m = re.exec( html );
+  				if ( m != null ) 
+				{
+					var s = "";
+    					for (i = 0; i < m.length; i++) 
+					{
+      						s = s + m[i];
+    					}
+    					var temp = s.split( " " );
+					if( temp[1] != version )
+					{		
+						var notification = webkitNotifications.createNotification(
+						  'images/48.png',  chrome.i18n.getMessage( "page_background_newupdate" ),  chrome.i18n.getMessage( "page_background_newupdate_help" )						  
+						);	
+						notification.show();	
+						_gaq.push(['_trackEvent', 'Version', 'outdated', version ]);
+						
+					}
+  				}
+			}   
+		});
+
+
+		var _gaq = _gaq || [];
+	     	_gaq.push(['_setAccount', 'UA-1014155-3']);
+	     	_gaq.push(['_trackPageview']);
+		_gaq.push(['_trackEvent', 'Version', 'Current', version ]);	
+		_gaq.push(['_trackEvent', 'Language', 'Current', window.navigator.language ]);
+
+	     	(function() 
+		{
+	       		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	       		ga.src = 'https://ssl.google-analytics.com/ga.js';
+	       		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+	     	})();	
+
+		$( document ).ready( function ()
+		{		
+			if( localStorage.getItem( "hijack" ) !== null )
+				
+			{
+				var loginurl = "http://" + localStorage.getItem( "host" );
+				loginurl += ":" + localStorage.getItem( "port" ) + "/webman/modules/login.cgi?username=";
+				loginurl += localStorage.getItem( "username" ) + "&passwd=";
+				loginurl += localStorage.getItem( "password" );
+	
+				$( "body" ).append( "<iframe style=\"width:0px;height:0px\" src='" + loginurl + "'></iframe>" );
+			}
+		});	
+
+	</script>
+</head>
+<body>
+
+
+</body>
+</html>

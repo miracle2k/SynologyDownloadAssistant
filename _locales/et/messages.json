@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Lae assistent"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Lae otse oma Synology Diskstation - Powered by jQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Lae assistent Valikud"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Details"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Host"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Sadam"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Vaata Connection"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Kasutajanimi"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Parool"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Vaata volikirjad"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Valikud"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Armatuurlaud"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Eksperimentaalne"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Palju konsooliväljundit"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Ühendatakse ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connected!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Ajastatud välja!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Sisse logitud!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Ebakorrektne Logi sisse!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Edukalt lisatud:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Nr allalaadimiste laadida järjekorda ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Failinimi"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Edu"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "kohta"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Lehekülg"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Allalaadimine ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Lae"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Lae Kõik"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Ootel ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Seaded"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Lae Pildid"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack lingid"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Laadi Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Viga Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Edukalt lisatud Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Palun unjack esimese"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Lae Kõik failid"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Lae Kõik pildid"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Oled sa kindel, et soovid alla laadida"
+  },
+
+  "contentscript_files":
+  {
+    "message": "Failide"
+  },
+
+  "contentscript_images":
+  {
+    "message": "pilte"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Tühistama"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Ei saanud sisse logida, vaadata kasutajanime, parooli ja võrgu aadressi oma diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "on valmis!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Uus update saadaval!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Mine laiendusi. Kliki Developer režiim ja seejärel Update laiendusi praegu"
+  }
+
+}
+

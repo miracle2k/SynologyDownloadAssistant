@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology הורד עוזר"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "להוריד ישירות את Diskstation Synology שלך - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology אפשרויות הורדה עוזר"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation פרטים"
+  },
+
+  "page_options_host": 
+  {
+    "message": "מארח"
+  },
+
+  "page_options_port": 
+  {
+    "message": "נמל"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "בדוק חיבור"
+  },
+
+  "page_options_username": 
+  {
+    "message": "שם משתמש"
+  },
+
+  "page_options_password": 
+  {
+    "message": "סיסמה"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "בדוק את אישורי"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "תוסף אפשרויות"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "לוח מחוונים"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "נסיוני"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "לנפות"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "שפע של קונסולת הפלט"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "מתחבר ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "התחברות!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "הזמן שהוקצב!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "מחובר!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "התחברות שגויים!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "נוסף בהצלחה:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "אין הורדות בתור להורדה ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "שם הקובץ"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "התקדמות"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "של"
+  },
+
+  "page_popup_page":
+  {
+    "message": "דף"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "הורדת ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "כתובת האתר"
+  },
+
+  "page_popup_download":
+  {
+    "message": "הורדה"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "כל הורדה"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "היי ג 'ק"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "המתנה ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "הגדרות"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "הורדת תמונות"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "היי ג 'ק קישורים"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "מנהל ההורדות"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "הורדה עם Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "שגיאה שליחת הורדה"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "נוסף בהצלחה הורדה"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "אנא unjack הראשון"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "הורד את כל הקבצים"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "הורד את כל התמונות"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "האם אתה בטוח שאתה רוצה להוריד"
+  },
+
+  "contentscript_files":
+  {
+    "message": "קבצים"
+  },
+
+  "contentscript_images":
+  {
+    "message": "תמונות"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "לבטל"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "לא מצליח להתחבר, בדוק את שם משתמש, סיסמא וכתובת רשת diskstation שלך"
+  },
+
+  "page_background_completed":
+  {
+    "message": "הושלמה!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "עדכון חדש זמין!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "עבור הרחבות. לחץ תשובת במצב ולאחר מכן עדכן הרחבות עכשיו"
+  }
+
+
+}

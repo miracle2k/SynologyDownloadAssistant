@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Rechtstreeks downloaden naar uw Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant Opties"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Details Diskstation"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Gastheer"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Haven"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Controleer de aansluiting"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Gebruikersnaam"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Wachtwoord"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Check Geloofsbrieven"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Opties"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Dashboard"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimenteel"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Veel console-uitvoer"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Verbinding maken ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connected!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Time-out!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Ingelogd!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Onjuiste Login!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Toegevoegd:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Geen downloads in de wachtrij ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Bestandsnaam"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Vooruitgang"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "van"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Pagina"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Het laden ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Alle downloaden"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Stand-by ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Instellingen"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download Afbeeldingen"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack links"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Met Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Fout Aanleveren downloaden"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Succesvol Toegevoegd downloaden"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Gelieve unjack eerste"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Alle Bestanden downloaden"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Alle afbeeldingen downloaden"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Weet u zeker dat u wilt downloaden"
+  },
+
+  "contentscript_files":
+  {
+    "message": "archief"
+  },
+
+  "contentscript_images":
+  {
+    "message": "beelden"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Annuleren"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Kon niet inloggen, controleer dan de gebruikersnaam, wachtwoord en netwerk adres aan uw diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "heeft voltooid!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Nieuwe update beschikbaar!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Ga naar extensies. Klik voor ontwikkelaars modus en dan Update extensies nu"
+  }
+
+
+}

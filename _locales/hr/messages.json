@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Preuzimanje asistent"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Preuzmite direktno na Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant Mogućnosti"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Detalji"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Domaćin"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Luka"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Provjerite veze"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Korisničko ime"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Lozinka"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Provjerite Mandatno"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Options"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Nadzorna ploča"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Eksperimentalan"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Puno izlaza konzole"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Spajanje ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Povezani!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Je isteklo!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Prijavljeni!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Neispravan Prijava!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Uspješno Dodano:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Nije potrebno preuzimanje datoteka preuzimanje datoteka u redu ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Datoteka"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Napredak"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "od"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Stranica"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Downloading ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Preuzmite"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download All"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Standby ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Postavke"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Slike Download"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack linkovi"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Preuzimanje datoteka Voditelj"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Preuzimanje datoteka Sa Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Pogreška Podnošenje Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Uspješno dodan Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Molimo unjack prvi"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Skidati podatke Svi Kartoteka"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Preuzmite sve slike"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Jeste li sigurni da želite preuzeti"
+  },
+
+  "contentscript_files":
+  {
+    "message": "slika"
+  },
+
+  "contentscript_images":
+  {
+    "message": "slike"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Otkazati"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Ne mogu se prijaviti, provjerite korisničko ime, lozinka i adresa mreže na svoj diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "je završio!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "New update available!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Idi na ekstenzije. Kliknite Razvojni način rada i zatim Ažuriraj sada proširenja"
+  }
+
+
+}

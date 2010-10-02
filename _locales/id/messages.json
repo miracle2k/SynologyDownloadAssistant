@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Asisten"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Download Langsung ke Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Pilihan Asisten"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Rincian"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Tuan rumah"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Pelabuhan"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Cek Koneksi"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Username"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Kata sandi"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Periksa Kredensial"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Pilihan"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Dasbor"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Eksperimental"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Banyak konsol output"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Menyambung ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connected!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Timeout!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Log in!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Login Salah!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Berhasil Ditambahkan:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Tidak ada download dalam antrian download ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Nama file"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Kemajuan"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "dari"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Halaman"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Men-download ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download Semua"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Siaga ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Pengaturan"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download Gambar"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack link"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Dengan Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Kesalahan penyampaian Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Berhasil Ditambahkan Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Harap unjack pertama"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Download Semua File"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Download Semua Foto"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Apakah Anda yakin ingin men-download"
+  },
+
+  "contentscript_files":
+  {
+    "message": "file"
+  },
+
+  "contentscript_images":
+  {
+    "message": "gambar"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Membatalkan"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Tidak dapat login, periksa username, password dan alamat jaringan untuk diskstation Anda"
+  },
+
+  "page_background_completed":
+  {
+    "message": "telah selesai!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Baru update yang tersedia!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Pergi ke ekstensi. Klik Pengembang modus dan kemudian Update ekstensi sekarang"
+  }
+
+
+}

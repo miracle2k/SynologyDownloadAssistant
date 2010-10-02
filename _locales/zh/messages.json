@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "【Synology下载助手"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "直接下载到您的【Synology Diskstation - 由JQuery的技术支持！"
+  },
+
+  "page_options_title": 
+  {
+    "message": "【Synology下载助手选项"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation详细"
+  },
+
+  "page_options_host": 
+  {
+    "message": "主持人"
+  },
+
+  "page_options_port": 
+  {
+    "message": "港口"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "检查连接"
+  },
+
+  "page_options_username": 
+  {
+    "message": "用户名"
+  },
+
+  "page_options_password": 
+  {
+    "message": "密码"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "检查证书"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "插件选项"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "仪表盘"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "实验"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "调试"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "大量的控制台输出"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "连接..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "连接！"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "超时！"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "登录！"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "不正确登录！"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "成功将："
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "在下载队列没有下载..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "文件名"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "进展"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "的"
+  },
+
+  "page_popup_page":
+  {
+    "message": "页面"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "正在下载..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "网址"
+  },
+
+  "page_popup_download":
+  {
+    "message": "下载"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "全部下载"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "嗨，杰克"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "待机..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "设置"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "下载图片"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "嗨，杰克链接"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "下载管理"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "下载与Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "错误提交下载"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "成功将下载"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "首先请unjack"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "下载所有文件"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "下载所有图片"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "你确定要下载"
+  },
+
+  "contentscript_files":
+  {
+    "message": "档"
+  },
+
+  "contentscript_images":
+  {
+    "message": "图像"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "取消"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "无法登录，检查用户名，密码和网络地址到您diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "已完成！"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "新的更新可用！"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "转到扩展。开发模式，然后按一下更新现在扩展"
+  }
+
+}
+

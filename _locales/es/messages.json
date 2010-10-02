@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology ayudante de descarga"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Descargar directamente al teléfono de Synology Diskstation - Desarrollado por jQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Opciones de descarga Auxiliar"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Detalles"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Anfitrión"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Puerto"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Compruebe la conexión"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Nombre de usuario"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Contraseña"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Entradas de Verificación de Poderes"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin de Opciones"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Tablero de instrumentos"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimental"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Depurar"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Las porciones de salida de la consola"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Conectando ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Conectado!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Tiempo de espera agotado!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Identificados!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Nombre incorrecto!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Ha agregado:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "No hay descargas en cola de descarga ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Nombre de archivo"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Progreso"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "de"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Página"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Descargando ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Descargar"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Descargar todos"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Espera ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Configuración"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Descargar imágenes"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack enlaces"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Con Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Descargar presentación de error"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Ha agregado Descargar"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Por favor, primero unjack"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Descargar todos los archivos"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Descargar todas las imágenes"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "¿Está seguro que desea descargar"
+  },
+
+  "contentscript_files":
+  {
+    "message": "archivos"
+  },
+
+  "contentscript_images":
+  {
+    "message": "imágenes"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Cancelar"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "No se puede acceder, compruebe el nombre de usuario, contraseña y dirección de red a su diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "ha terminado!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Nueva actualización disponible!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Ir a las extensiones. Haga clic para desarrolladores modo y luego actualización de las extensiones de ahora"
+  }
+
+
+}

@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Baixe diretamente em seu Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Opções de Download Assistant"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Detalhes"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Hospedeiro"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Porto"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Verifique a conexão"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Nome de Usuário"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Senha"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Verificar as credenciais"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Opções de Plugin"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Painel de instrumentos"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimental"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Depurar"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Lotes de saída do console"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Conectando ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Conectado!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Esgotado o tempo limite!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Logado!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Login incorreto!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Adicionado com sucesso:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Não há downloads na fila de download ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Nome do arquivo"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Progresso"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "de"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Página"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Baixando ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Baixar"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download Tudo"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Oi Jack-"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Em espera ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Configurações"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download Imagens"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "links Hi-Jack"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Com Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Erro Envio de Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Adicionado com sucesso download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Por favor, unjack primeiro"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Baixar todos os arquivos"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Baixe Todas as Imagens"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Tem certeza de que deseja baixar"
+  },
+
+  "contentscript_files":
+  {
+    "message": "arquivos"
+  },
+
+  "contentscript_images":
+  {
+    "message": "imagens"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Cancelar"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Não é possível fazer o login, verifique o nome de usuário, senha e endereço de rede para o diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "foi concluída!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Nova atualização disponível!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Ir para extensões. Clique em modo de desenvolvedor e, em seguida, as extensões Update"
+  }
+
+}
+

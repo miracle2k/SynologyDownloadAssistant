@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Data Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Ladda ner direkt till din Synology Diskstation - Drivs av JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Data Assistant Val"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Detaljer"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Värd"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Kontrollera anslutningen"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Användarnamn"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Lösenord"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Kontrollera Referenser"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin-alternativ"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Instrumentbräda"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimentell"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Felsök"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Massor av konsol utdata"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Ansluter ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Ansluten!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Begränsad ut!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Inloggad!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Felaktig inloggning!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Har lagts till:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Inga nedladdningar i nedladdning kö ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Filnamn"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Framsteg"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "av"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Sida"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Hämtar ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Hämta"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Ladda ner alla"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Standby ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Inställningar"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Ladda ner bilder"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack länkar"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Hämta Med Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Fel Skicka Hämta"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Har lagts Hämta"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Vänligen unjack första"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Hämta alla filer"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Hämta alla bilder"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Är du säker på att du vill ladda ner"
+  },
+
+  "contentscript_files":
+  {
+    "message": "filer"
+  },
+
+  "contentscript_images":
+  {
+    "message": "bilder"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Avbryt"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Det går inte att logga in, kontrollera användarnamn, lösenord och nätverk adressen till din diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "har avslutat!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Ny uppdatering tillgänglig!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Gå till anknytningar. Klicka på Utvecklare läge och sedan Uppdatera förlängningar nu"
+  }
+
+
+}

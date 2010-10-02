@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Скачать помощник"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Скачать прямо на ваш Synology Diskstation - питание от JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Скачать помощник Функции"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Подробная информация о Diskstation"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Хозяин"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Порт"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Проверьте подключение"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Имя пользователя"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Пароль"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Проверить по проверке полномочий"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Плагин Функции"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Приборная панель"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Экспериментальный"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Отлаживать"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Много вывод на консоль"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Подключение ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Присоединяйтесь!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Таймаут!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Вошли в систему!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Неправильный Логин!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Успешно Добавлено:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Нет файлов для загрузки очереди ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Имя файла"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Прогресс"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "из"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Страница"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Загрузка ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Скачать"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Загрузить все"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Привет-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Ожидание ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Настройки"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Загрузка изображений"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Привет-Jack ссылки"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Скачать с Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Ошибка Отправка Загрузка"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Загрузка успешно добавлен"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Пожалуйста, unjack первый"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Загрузить все файлы"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Загрузить все изображения"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Вы уверены, что хотите скачать"
+  },
+
+  "contentscript_files":
+  {
+    "message": "файлы"
+  },
+
+  "contentscript_images":
+  {
+    "message": "изображения"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Отменить"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Невозможно Логин, проверить имя пользователя, пароль и сетевой адрес в diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "завершена!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Новое обновление доступно!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Перейти к расширений. Нажмите разработчиков режима, а затем обновление расширений сейчас"
+  }
+
+}
+

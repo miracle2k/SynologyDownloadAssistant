@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Download โดยตรง Synology Diskstation ของคุณ -- Powered by jQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download ตัวช่วย"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "รายละเอียด Diskstation"
+  },
+
+  "page_options_host": 
+  {
+    "message": "เจ้าบ้าน"
+  },
+
+  "page_options_port": 
+  {
+    "message": "พอร์ต"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "ตรวจสอบการเชื่อมต่อ"
+  },
+
+  "page_options_username": 
+  {
+    "message": "ชื่อผู้ใช้"
+  },
+
+  "page_options_password": 
+  {
+    "message": "รหัสผ่าน"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "ตรวจสอบด้วยชื่อเสียง"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "ตัวเลือกปลั๊กอิน"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "แผงควบคุม"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "ทดลอง"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "มากมาย console output"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Connecting ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connected!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "หมดเวลา!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "เข้าสู่ระบบ!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Login ไม่ถูกต้อง!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "สำเร็จ Added :"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "ไม่มีการดาวน์โหลดในคิว download ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Filename"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "ความคืบหน้า"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "ของ"
+  },
+
+  "page_popup_page":
+  {
+    "message": "หน้า"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "ดาวน์โหลด ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "All Download"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi - Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "สแตน ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "การตั้งค่า"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "ภาพ Download"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "ลิงก์ Hi - Jack"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download กับ Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "ข้อผิดพลาดการส่ง Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "ประสบความสำเร็จเพิ่มดาวน์โหลด"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "กรุณา unjack แรก"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Download All Files"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Download ภาพทั้งหมด"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "คุณแน่ใจหรือว่าต้องการดาวน์โหลด"
+  },
+
+  "contentscript_files":
+  {
+    "message": "ไฟล์"
+  },
+
+  "contentscript_images":
+  {
+    "message": "ภาพ"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "ยกเลิก"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "ไม่สามารถเข้าสู่ระบบตรวจสอบชื่อผู้ใช้รหัสผ่านและที่อยู่เครือข่ายเพื่อ diskstation ของคุณ"
+  },
+
+  "page_background_completed":
+  {
+    "message": "เสร็จสมบูรณ์แล้ว!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "New update ใช้ได้!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "ไปขยาย โหมด Click พัฒนาและขยายปรับปรุงนี้"
+  }
+
+
+}

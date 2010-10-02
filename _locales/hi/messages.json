@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology सहायक डाउनलोड करें"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "सीधे आपके Synology Diskstation के लिए डाउनलोड करें - jQuery द्वारा संचालित!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology सहायक विकल्प डाउनलोड करें"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation विवरण"
+  },
+
+  "page_options_host": 
+  {
+    "message": "मेजबान"
+  },
+
+  "page_options_port": 
+  {
+    "message": "बंदरगाह"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "कनेक्शन की जाँच करें"
+  },
+
+  "page_options_username": 
+  {
+    "message": "उपयोगकर्ता नाम"
+  },
+
+  "page_options_password": 
+  {
+    "message": "पासवर्ड"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "क्रेडेंशियल्स की जाँच करें"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "प्लगइन विकल्प"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "डैशबोर्ड"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "प्रयोगात्मक"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "डिबग"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "सांत्वना के बहुत सारे उत्पादन"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "जोड़ने के ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "जुड़े!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "बाहर समय पर!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "में लॉग इन!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "गलत लॉग इन करें!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "सफलतापूर्वक जोड़े गए:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "डाउनलोड कतार में नहीं डाउनलोड ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "फाईल का नाम"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "प्रगति"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "की"
+  },
+
+  "page_popup_page":
+  {
+    "message": "पृष्ठ"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "डाउनलोड ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "यूआरएल"
+  },
+
+  "page_popup_download":
+  {
+    "message": "डाउनलोड"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "डाउनलोड सभी"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "हाय जैक"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Standby ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "सेटिंग्स"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "डाउनलोड छवियाँ"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "हाय जैक लिंक"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "डाउनलोड प्रबंधक"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Diskstation के साथ डाउनलोड"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "त्रुटि डाउनलोड सबमिट"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "सफलतापूर्वक जोड़ा डाउनलोड करें"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "unjack पहले कृपया"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "डाउनलोड सभी फ़ाइलें"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "डाउनलोड सभी छवियाँ"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "क्या आप डाउनलोड करना चाहते हैं"
+  },
+
+  "contentscript_files":
+  {
+    "message": "फाइलें"
+  },
+
+  "contentscript_images":
+  {
+    "message": "छवियाँ"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "रद्द करना"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "लॉगिन करने में असमर्थ है, उपयोगकर्ता नाम, पासवर्ड और नेटवर्क अपने diskstation करने के लिए पते की जाँच करें"
+  },
+
+  "page_background_completed":
+  {
+    "message": "पूरा कर लिया!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "नई उपलब्ध अद्यतन!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "एक्सटेंशन पर जाएँ. डेवलपर मोड क्लिक करें और तब अद्यतन एक्सटेंशन अब"
+  }
+
+}
+

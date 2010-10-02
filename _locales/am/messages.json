@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Download Directly to your Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant Options"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Details"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Host"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Check Connection"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Username"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Password"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Check Credentials"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Options"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Dashboard"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimental"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Lots of console output"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Connecting..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Connected!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Timed out!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Logged in!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Incorrect Login!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Successfully Added : "
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "No downloads in download queue..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Filename"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Progress"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "of"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Page"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Downloading..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download All"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Standby..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Settings"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download Images"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack links"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download With Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Error Submitting Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Sucessfully Added Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Please unjack first"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Download All Files"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Download All Images"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Are you sure you want to download"
+  },
+
+  "contentscript_files":
+  {
+    "message": "files"
+  },
+
+  "contentscript_images":
+  {
+    "message": "images"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Cancel"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Unable to login, check the username, password and network address to your diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "has completed!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "New update available!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Go to extensions. Click Developer mode and then Update extensions now"
+  }
+
+
+}

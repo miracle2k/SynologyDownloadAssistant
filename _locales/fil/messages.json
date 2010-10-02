@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "I-download nang direkta sa iyong Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant Opsyon"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Details"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Marami"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Suriin ang koneksyon"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Username"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Password"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Suriin ang mga credential"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Opsyon"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Tapalodo"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Pagsubok"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Mag-alis ng mga insekto"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Napakaraming console output"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Kumokonekta ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Konektado!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Time out!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Naka-log in!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Maling Mag-login!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Matagumpay Added:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Walang mga maida-download sa download queue ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Pangalan ng file"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Pag-unlad"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "ng"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Pahina"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Nagda-download ng ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "I-download ang Lahat"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi Jack-"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Standby ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Mga Setting"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "I-download ang imahe"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi Jack-link"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Sa Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Error sa pagpadala Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Matagumpay Added Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Mangyaring unjack unang"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "I-download ang Lahat ng mga File"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "I-download ang lahat ng mga imahe"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Sigurado ka bang gusto mong i-download"
+  },
+
+  "contentscript_files":
+  {
+    "message": "mga file"
+  },
+
+  "contentscript_images":
+  {
+    "message": "mga imahe"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Ikansela"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Hindi sa pag-login, i-check ang username, password at network ng mga address sa inyong diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "natapos!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Bago i-update ang magagamit!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Pumunta sa extension. I-click ang Developer mode at pagkatapos ay I-update ang extension ngayon"
+  }
+
+}
+

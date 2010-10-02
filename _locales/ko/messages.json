@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Assistant는 다운로드"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "다운로드 Synology Diskstation 직접 - 전원 JQuery로!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Assistant는 옵션을 다운로드"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation 세부 정보"
+  },
+
+  "page_options_host": 
+  {
+    "message": "숙주"
+  },
+
+  "page_options_port": 
+  {
+    "message": "포트"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "연결을 확인"
+  },
+
+  "page_options_username": 
+  {
+    "message": "사용자 이름"
+  },
+
+  "page_options_password": 
+  {
+    "message": "암호"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "자격 증명을 확인하십시오"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "플러그인 옵션"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "계기판"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "실험"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "디버그"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "콘솔 많은 출력"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "연결 중 ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "연결!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "시간이 초과되었습니다!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "에 접속!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "잘못된 로그인!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "성공적으로 추가되었습니다 :"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "다운로드 대기열에 없음 다운로드 ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "파일명"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "진행"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "의"
+  },
+
+  "page_popup_page":
+  {
+    "message": "페이지"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "다운로드 중 ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "홈페이지"
+  },
+
+  "page_popup_download":
+  {
+    "message": "다운로드"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "모두 다운로드"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "안녕하세요 - 잭"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "대기 ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "설정"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "이미지 다운로드"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "하이 잭 링크"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "다운로드 관리자"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "다운로드 Diskstation과 함께"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "오류가 다운로드 제출"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "성공적으로 다운로드 추가됨"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "제발 unjack 처음으로"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "다운로드 모든 파일"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "모든 이미지 다운로드"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "당신은 당신이 다운로드 하시겠습니까"
+  },
+
+  "contentscript_files":
+  {
+    "message": "파일"
+  },
+
+  "contentscript_images":
+  {
+    "message": "이미지"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "취소"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "없습니다, 로그인 이름, 암호 및 diskstation 네트워크 주소를 확인"
+  },
+
+  "page_background_completed":
+  {
+    "message": "완료되었습니다!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "새로운 업데이 트가 없습니다!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "확장자로 이동합니다. 클릭 개발자 모드를 누른 다음 지금 업데이 트를 확장"
+  }
+
+}
+

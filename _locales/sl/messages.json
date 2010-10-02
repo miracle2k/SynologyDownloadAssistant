@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Prenesite neposredno na vaš Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant Možnosti"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Podrobnosti"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Host"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Preveri povezave"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Uporabniško ime"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Geslo"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Preverite Mandatno"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Možnosti Plugin"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Blatnik"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Eksperimentalna"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Veliko konzole proizvodnje"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Povezovanje ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Povezana!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Omeji ven!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Prijavljeni!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Nepravilna Prijava!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Uspešno Added:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Št prenosi v download vrsti ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Ime datoteke"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Napredek"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "z dne"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Stran"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Nalaganje ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Download"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download Vse"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Pripravljenosti ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Nastavitve"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download Images"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack povezave"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Download Z Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Napaka Pošiljanje Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Uspešno Added Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Prosimo unjack prvi"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Download Vse datoteke"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Download Vse slike"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Ali ste prepričani, da želite prenesti"
+  },
+
+  "contentscript_files":
+  {
+    "message": "datotek"
+  },
+
+  "contentscript_images":
+  {
+    "message": "slik"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Prekliči"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Prepričajte se, da, preverite uporabniško ime, geslo in naslov za vaš diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "bil dokončan!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Novo posodobitev na voljo!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Pojdi na razširitve. Kliknite za razvijalce načinu in nato Posodobi zdaj razširitve"
+  }
+
+
+}

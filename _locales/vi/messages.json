@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Trợ lý"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Tải về trực tiếp vào Synology Diskstation của bạn - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Options Trợ lý"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Thông tin chi tiết Diskstation"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Host"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Port"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Kiểm tra kết nối"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Tên đăng nhập"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Mật khẩu"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Giây chứng nhận kiểm tra"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Tùy chọn Plugin"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Bảng điều khiển"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Thực nghiệm"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Rất nhiều giao diện điều khiển đầu ra"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Kết nối ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Kết nối!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Time out!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Đăng nhập!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Đăng nhập không chính xác!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Thành công nhập:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Không có tải trong hàng đợi tải về ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Tên file"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Tiến độ"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "của"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Trang"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Tải về ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Tải về"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Download Tất cả"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Chờ ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Cài đặt"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Tải hình ảnh"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack liên kết"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Tải về Với Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Lỗi Trình Download"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Nhập thành công Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Xin vui lòng unjack đầu tiên"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Download All Files"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Download All Images"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Bạn có chắc bạn muốn tải về"
+  },
+
+  "contentscript_files":
+  {
+    "message": "tập tin"
+  },
+
+  "contentscript_images":
+  {
+    "message": "hình ảnh"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Huỷ"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Không thể đăng nhập, hãy kiểm tra tên người dùng, mật khẩu và địa chỉ mạng để diskstation của bạn"
+  },
+
+  "page_background_completed":
+  {
+    "message": "đã hoàn thành!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Mới cập nhật có sẵn!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Tới phần mở rộng. Click vào phát triển chế độ và sau đó cập nhật các phần mở rộng hiện nay"
+  }
+
+}
+

@@ -1,0 +1,491 @@
+<html>
+<head>
+	<style>
+
+		body 
+		{
+			min-width:600px;
+			min-height:63px;	
+			overflow-x:hidden;
+			padding:0px;
+			margin:5px;
+			background-attachment: fixed;
+			background-image: url(images/ezbg.jpg);
+			background-repeat: no-repeat;
+			background-position: right top;
+			background-color: #FFFFFF;
+		}
+
+		img, .link, .submit , .links
+		{
+			vertical-align:middle;
+			margin-left:4px;
+		}
+
+		.link
+		{
+			width:380px;
+			height:20px;
+			padding:2px;
+			font-size:8pt;
+			border: 1px solid #aaa;
+			margin:5px;
+		}
+
+		.pagebox
+		{
+			width:15px;
+			height:20px;
+			padding:2px;
+			font-size:8pt;
+			border: 1px solid #aaa;
+			margin:5px;
+		}
+
+		.links
+		{
+			width:380px;
+			height:200px;
+			padding:2px;
+			font-size:8pt;
+			border: 1px solid #aaa;
+			margin:5px;
+		}
+
+		.button
+		{
+			color:#000;
+			height:20px;
+			padding:2px;
+			font-size: 8pt;
+			border:#555;
+			background-color:transparent;
+		}
+
+		.buttonActive
+		{
+			color:#000;
+			height:20px;
+			padding:2px;
+			font-size: 8pt;
+			border:#555 1px solid;	
+		}
+
+		.button:hover
+		{
+			color:#000;
+			height:20px;
+			padding:2px;
+			font-size: 8pt;
+			border:#555 1px solid;	
+		}
+
+		td, div
+		{
+			font-size: 8pt;
+		}
+
+		#downloadtable 
+		{
+			width:95%;
+			margin-left:15px;
+			margin-right:15px;
+			border-top: 1px solid #cccccc;
+			border-bottom: 1px solid #cccccc;
+		}
+
+		#downloadoptions
+		{
+			width:95%;
+			margin-left:15px;
+			margin-right:15px;
+		}
+
+	</style>
+	<script type="text/javascript" src="javascript/common.js"></script>
+	<script type="text/javascript" src="javascript/jq.js"></script>
+	<script language='javascript'>
+
+		var downloadids = new Array();
+
+		function deleteTask( id , multi )
+		{
+			var durl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/download/downloadman.cgi";	
+
+			$.ajax(
+			{
+				type: "POST",
+			   	url: durl,
+			   	data: "action=delete&idList=" + id,
+			   	success: function( msg )
+				{
+					if( multi == 0 )
+					{
+			     			extend( 'downloads' , 1 );
+					}
+			   	}
+			});
+		}
+
+
+		function deleteAll()
+		{
+			$.each( downloadids , function( index , item )
+			{
+				deleteTask( item , 1 ); 					
+			});	
+
+			extend( 'downloads' , 1 );		
+		}
+
+
+		function pauseTask( id , multi )
+		{
+			var durl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/download/downloadman.cgi";
+
+			$.ajax(
+			{
+				type: "POST",
+			   	url: durl,
+			   	data: "action=stop&idList=" + id,
+			   	success: function( msg )
+				{
+					if( multi == 0 )
+					{
+			     			extend( 'downloads' , 1 );
+					}
+			   	}
+			});				
+		}
+
+
+		function pauseAll()
+		{
+			$.each( downloadids , function( index , item )
+			{
+				pauseTask( item , 1 );				
+			});	
+
+			extend( 'downloads' , 1 );		
+		}
+
+
+
+		function resumeTask( id , multi )
+		{
+			var durl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/download/downloadman.cgi";	
+
+			$.ajax(
+			{
+				type: "POST",
+			   	url: durl,
+			   	data: "action=resume&idList=" + id,
+			   	success: function( msg )
+				{
+					if( multi == 0 )
+					{
+			     			extend( 'downloads' , 1 );
+					}
+			   	}
+			});
+		}
+
+
+		function resumeAll()
+		{
+			$.each( downloadids , function( index , item )
+			{
+				resumeTask( item , 1 );				
+			});	
+
+			extend( 'downloads' , 1 );		
+		}
+
+
+		function clearTask()
+		{
+			var url = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/download/downloadman.cgi";	
+
+			$.post( url , 
+				{ 
+					action: "clear" , 
+					idList: ""
+				},
+				function( data )
+				{
+					extend( 'downloads' , 1 );
+				}
+			);
+		}
+
+
+		function debug( msg )
+		{
+			if( localStorage.getItem( "debug" ) == 1 )
+			{
+				console.log( msg );
+			}
+		}
+
+
+		function extend( block , blockopt )
+		{
+			var blocks = new Array( 'settings' , 'downloadall' , 'downloadimages' , 'downloads' );
+
+			$.each( blocks , function ( index , blockid )
+			{
+				if( blockid == block )
+				{
+					$( '#' + blockid ).css( 'display' , 'block' );
+					if( block == "downloadall" )
+					{
+						chrome.tabs.getSelected( null , function( tab ) 
+						{
+				  			chrome.tabs.sendRequest( tab.id, { method: "downloadall", types: $( '#downloadtypes' ).val() }, function( response ) 
+							{
+					    			var downloads = response.data;
+								var bgpage = chrome.extension.getBackgroundPage();														
+					
+								$( '#downlist' ).text( "" );					
+
+								$.each( downloads , function( index , data )
+								{
+									var token = bgpage.getToken();
+									bgpage.downloadTorrent( token , encodeURIComponent( data ) );
+									$( '#downlist' ).text( chrome.i18n.getMessage( "page_popup_successful" ) + data );
+									debug( data );
+								});
+					  		});
+						});
+					}
+					else if( block == "downloadimages" )
+					{
+						chrome.tabs.getSelected( null , function( tab ) 
+						{
+				  			chrome.tabs.sendRequest( tab.id, { method: "downloadimages", types: "jpeg,png,gif,jpg,bmp" }, function( response ) 
+							{
+					    			var downloads = response.data;
+								var bgpage = chrome.extension.getBackgroundPage();														
+					
+								$( '#imglist' ).text( "" );					
+
+								$.each( downloads , function( index , data )
+								{
+									var token = bgpage.getToken();
+									bgpage.downloadTorrent( token , encodeURIComponent( data ) );
+									$( '#imglist' ).text( chrome.i18n.getMessage( "page_popup_successful" ) + data );
+									debug( data );
+								});
+					  		});
+						});
+					}
+					else if( block == "downloads" )
+					{						
+						var checkurl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/download/downloadman.cgi?_dc=1279970294489&action=getall&start=0&limit=1000&sort=task_id&dir=ASC";	
+						var count = 0;
+
+						downloadids = new Array();
+
+						if( $( "#loaded" ).val() == "0" )
+						{
+							var loginurl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/webman/modules/login.cgi?username=" + localStorage.getItem( "username" ) + "&passwd=" + localStorage.getItem( "password" );
+							$( "body" ).append( "<iframe style=\"width:0px;height:0px\" src='" + loginurl + "'></iframe>" );
+							$( "#loaded" ).val( "1" );
+						}
+						
+						$.getJSON( checkurl , function( data ) 
+						{	
+							if( data.items.length < 1 )
+							{
+								$( "#downloads" ).empty();
+								$( "#downloads" ).append( "<br>" + chrome.i18n.getMessage( "page_popup_queue_empty" ) + "<br><br>" );
+							}
+							else
+							{
+								count = data.items.length;
+								var pagecount = Math.ceil( count / 10 );
+
+								if( blockopt < 1 )
+								{
+									blockopt = 1;
+									var c_page = 1;
+								}
+								else if( blockopt > pagecount )
+								{
+									blockopt = pagecount;
+									var c_page = pagecount;
+								}
+								else
+								{
+									var c_page = blockopt;
+								}									
+
+								var itemnum = 1;
+								$( "#downloads" ).empty();
+								$( "#downloads" ).append( "<br><table id='downloadtable'><tr><td width='18'></td><td width='18'></td><td><b>" + chrome.i18n.getMessage( "page_popup_filename" ) + "</b></td><td width='120' align='right'><b>" + chrome.i18n.getMessage( "page_popup_progress" ) + "</b></td></tr></table>" );				
+								$.each( data.items , function( index , itemdata )
+								{	
+									downloadids.push( itemdata.task_id );
+									console.log( downloadids.length ); 									
+																		
+									if( itemnum < ( ( blockopt * 10 ) - 9 ) || itemnum > ( blockopt * 10 ) )
+									{										
+										itemnum++;
+										return;
+									}
+									
+									var progress = itemdata.progress;
+									var text = itemdata.filename;
+									var del = "<input type='button' class='button' value='X' onclick=\"deleteTask('" + itemdata.task_id + "' , 0 )\">";
+									var resume = "<input type='button' class='button' value='>' onclick=\"resumeTask('" + itemdata.task_id + "' , 0 )\">";
+									var pause = "<input type='button' class='button' value='| |' onclick=\"pauseTask('" + itemdata.task_id + "' , 0 )\">";
+									var stop = "<input type='button' class='button' value='::' onclick=\"deleteTask('" + itemdata.task_id + "' , 0 )\">";
+									var playpause = "";
+		
+									if( itemdata.status == "TASK_PAUSED" )
+									{
+										playpause = resume;
+									}
+									else
+									{
+										playpause = pause;
+									}							
+								
+									$( "#downloadtable" ).append( "<tr><td>" + del + "</td><td>" + playpause + "</td><td>" + text + "</td><td width='120' align='right'>( " + progress + " ) " + itemdata.total_size + "</td></tr>" );		
+
+									itemnum++;						
+								}); 
+
+														
+
+								var del = "<input type='button' class='button' value='X' onclick=\"deleteAll()\">";
+								var resume = "<input type='button' class='button' value='>' onclick=\"resumeAll()\">";
+								var pause = "<input type='button' class='button' value='| |' onclick=\"pauseAll()\">";				
+
+								var next = "<input type='button' class='button' value='>' onclick=\"extend( 'downloads' , " + ( c_page + 1 ) + " )\">";
+								var previous = "<input type='button' class='button' value='<' onclick=\"extend( 'downloads' , " + ( c_page - 1 ) + " )\">";								
+
+								$( "#downloads" ).append( "<br><table id='downloadoptions'></table>" );
+								$( "#downloadoptions" ).append( "<tr id='optrow'></tr>" );
+								$( "#optrow" ).append( "<td width='20'>" + del + "</td>" );
+								$( "#optrow" ).append( "<td width='20'>" + resume + "</td>" );
+								$( "#optrow" ).append( "<td width='20'>" + pause + "</td>" );
+								$( "#optrow" ).append( "<td align='right'>" + chrome.i18n.getMessage( "page_popup_page" ) + " : <input type='text' size='2' value='" + c_page + "' class='pagebox'> " + chrome.i18n.getMessage( "page_popup_pageof" ) + " " + pagecount + " " + previous + " " + next + "</td>" );
+							}									
+						});						
+					}
+				}
+				else
+				{
+					$( '#' + blockid ).css( 'display' , 'none' );
+				}
+			});		
+		}
+
+		function hijackChange()
+		{
+			if( $( '#hijack' ).hasClass( 'button' ) )
+			{
+				localStorage.setItem( "hijack" , "1" );
+				$( '#hijack' ).removeClass( 'button' );
+				$( '#hijack' ).addClass( 'buttonActive' );
+			}
+			else
+			{
+				localStorage.setItem( "hijack" , "0" );
+				$( '#hijack' ).addClass( 'button' );
+				$( '#hijack' ).removeClass( 'buttonActive' );
+			}
+
+			chrome.tabs.getAllInWindow( null , function( tabs ) 
+			{
+				$.each( tabs , function( index , selectedTab )
+				{
+		  			chrome.tabs.sendRequest( selectedTab.id, { method: "hijackChange", hijacked: localStorage.getItem( "hijack" ) , types: localStorage.getItem( "hijacked" ) }, function( response ) 
+					{
+		    				debug( response.data );
+		  			});
+				});
+			});
+		}
+
+
+		function settingsChanged()
+		{
+			localStorage.setItem( "downloadtypes" , $( '#downloadtypes' ).val() );
+			localStorage.setItem( "hijacked" , $( '#hijacked' ).val() );
+		}
+
+
+		function downloadLink()
+		{
+			var bgpage = chrome.extension.getBackgroundPage();
+			var token = bgpage.getToken();
+			bgpage.downloadTorrent( token , encodeURIComponent( $( '#downloadlink' ).val() ) );
+			$( '#downloadlink' ).val( chrome.i18n.getMessage( "page_popup_downloading" ) );
+		}
+
+		$( document ).ready( function()
+		{
+			if( localStorage.getItem( "hijack" ) == 1 ) 
+			{
+				$( '#hijack' ).removeClass( 'button' );
+				$( '#hijack' ).addClass( 'buttonActive' );	
+			} 
+			$( '#downloadtypes' ).val( localStorage.getItem( "downloadtypes" ) );
+			$( '#hijacked' ).val( localStorage.getItem( "hijacked" ) );
+			$( "#page_popup_url" ).text( chrome.i18n.getMessage( "page_popup_url" ) );
+			$( "#page_popup_download" ).val( chrome.i18n.getMessage( "page_popup_download" ) );
+			$( "#page_popup_downloadall" ).text( chrome.i18n.getMessage( "page_popup_downloadall" ) );
+			$( "#page_popup_hijack" ).text( chrome.i18n.getMessage( "page_popup_hijack" ) );
+			$( "#downlist" ).text( chrome.i18n.getMessage( "page_popup_standby" ) );
+			$( "#imglist" ).text( chrome.i18n.getMessage( "page_popup_standby" ) );
+
+
+			$( "#page_popup_settings" ).val( chrome.i18n.getMessage( "page_popup_settings" ) );
+			$( "#page_popup_downall" ).val( chrome.i18n.getMessage( "page_popup_downloadall" ) );
+			$( "#page_popup_downloadallimages" ).val( chrome.i18n.getMessage( "page_popup_downloadallimages" ) );
+			$( "#hijack" ).val( chrome.i18n.getMessage( "page_popup_hijacklinks" ) );
+			$( "#page_popup_downloadmanager" ).val( chrome.i18n.getMessage( "page_popup_downloadmanager" ) );
+		});
+
+	</script>
+</head>
+<body>
+
+	<div align='center' style='margin-bottom:10px' ><img src='images/64.png' style='margin-bottom:10px' /><br />
+		<input type='button' class='button' id='page_popup_settings' onclick="extend( 'settings' , 0 );" /> 
+		<input type='button' class='button' id='page_popup_downall' onclick="extend( 'downloadall' , 0 );" /> 	
+		<input type='button' class='button' id='page_popup_downloadallimages' onclick="extend( 'downloadimages' , 0 );" /> 		
+		<input type='button' class='button' id='hijack' onclick='hijackChange();' /> 
+		<input type='button' class='button' id='page_popup_downloadmanager' onclick="extend( 'downloads' , 1 );" />
+	</div>
+
+	<div id='simple' style='display:block' align='center'>
+		<span id='page_popup_url'></span> : <input class='link' type='text' id='downloadlink' /> <input type='button' class='button' id='page_popup_download' value='' onclick='downloadLink()' /> 
+	</div>
+
+	<div id='settings' style='display:none' align='center'>	
+		<br />
+		<table cellpadding='2'>
+			<tr>
+				<td align='right' id='page_popup_downloadall'></td><td><input id='downloadtypes' class='link' type='text' value='' onkeyup="settingsChanged()"> </td>
+			</tr>
+			<tr>
+				<td align='right' id='page_popup_hijack'></td><td><input id='hijacked' class='link' type='text' value='' onkeyup="settingsChanged()"> </td>
+			</tr>
+		</table>	
+	</div>
+	<div id='downloadall' style='display:none' align='center'>	
+		<br />
+		<span id='downlist'></span>
+	</div>
+	<div id='downloadimages' style='display:none' align='center'>	
+		<br />
+		<span id='imglist'></span>
+	</div>
+	<div id='downloads' style='display:none' align='center'>	
+	</div>	
+	<input type='hidden' id='loaded' value='0'>
+</body>
+</html>

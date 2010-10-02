@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Синологи Преузмите Помоћник"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Преузмите директно на радну Синологи Дискстатион - Поуеред би ЈКуери!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Синологи Преузмите Помоћник Опције"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Дискстатион Детаљи"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Домаћин"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Лука"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Проверите везе"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Корисничко име"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Лозинка"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Проверите Мандатно"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Опције плугин"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Командна табла"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Експериментална"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Дебуг"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Много конзоле излаз"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Повезивање ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Цоннецтед!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Тимед оут!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Пријављени!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Неисправан Улогуј се"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Успешно Додато:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Нема програма у преузимање реду ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Име датотеке"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Напредак"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "од"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Страна"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Скидање ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "УРЛ адреса"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Довнлоад"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Преузмите све"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Хи-Џек"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Пасивни ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Подешавања"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Довнлоад слике"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Хи-Џек линкови"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Доунлоад Манагер"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Довнлоад са Дискстатион"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Грешка Слање преузимање"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Успешно Додато преузимање"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Молимо вас да уњацк први"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Преузмите Све датотеке"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Преузмите Све Слике"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Да ли сте сигурни да желите да преузмете"
+  },
+
+  "contentscript_files":
+  {
+    "message": "фајлова"
+  },
+
+  "contentscript_images":
+  {
+    "message": "слика"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Отказати"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Није да се пријавите, проверите корисничко име, лозинку и мрежне адресе на дискстатион"
+  },
+
+  "page_background_completed":
+  {
+    "message": "је завршена!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Нова исправка је доступна!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Иди на екстензије. Кликните Девелопер режим, а затим сада Ажурирај проширења"
+  }
+
+}
+

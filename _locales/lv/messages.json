@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download palīgs"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Lejupielādēt tieši Jūsu Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant opcijas"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation detaļas"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Host"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Osta"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Pārbaudiet savienojuma"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Lietotāja vārds"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Parole"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Pārbaudīt Kvalifikācijas dati"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin opcijas"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Dashboard"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Eksperimentāls"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Atkļūdošanas"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Daudz konsole izejas"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Savienot ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Saistītie!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Laikiestatīta out!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Pieteicies!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Nepareiza Login!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Veiksmīgi Pievienots:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Nav lejupielādēm lejupielādes rindā ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Faila nosaukums"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Progress"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "no"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Lappuse"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Lejupielāde ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Lejupielādēt"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Lejuplādēt visas"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Gaidīšanas ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Iestatījumi"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Download attēlus"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack saites"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Lejupielādēt Ar Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Kļūda iesniegšana Lejupielādēt"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Veiksmīgi Pievienots Lejupielādēt"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Lūdzu unjack pirmais"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Download Visi faili"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Lejupielādēt visus attēlus"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Vai tiešām vēlaties lejupielādēt"
+  },
+
+  "contentscript_files":
+  {
+    "message": "faili"
+  },
+
+  "contentscript_images":
+  {
+    "message": "attēlu"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Atcelt"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Nevar pieslēgties, pārbaudiet lietotājvārdu, paroli un tīkla adresi, lai Jūsu diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "ir pabeigta!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Jaunais atjauninājums pieejams!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Iet uz paplašinājumi. Noklikšķiniet Izstrādātājs režīmā un pēc tam atjaunināt pagarinājumus tagad"
+  }
+
+
+}

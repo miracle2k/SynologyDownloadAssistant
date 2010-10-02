@@ -1,0 +1,314 @@
+<html>
+<head>
+	<title id='pageTitle'></title>
+	<style>
+
+		body
+		{
+			margin:25px;
+			font-family: georgia, verdana , Garamond;
+			color: #333333;
+			background-attachment: fixed;
+			background-image: url(images/ezbg.jpg);
+			background-repeat: no-repeat;
+			background-position: right top;
+			background-color: #FFFFFF;
+			font-size:10pt;
+		}
+
+
+		.mainTable
+		{
+			margin-left:40px;
+			font-family: georgia, verdana , Garamond;
+			color: #333333;
+			padding:0px;
+	
+		}
+
+		.input
+		{
+			font-family: georgia, verdana , Garamond;
+		    	font-size: 14px;
+		   	background-color: #d6e5f4;
+		    	padding-left: 10px;
+			padding-right: 10px;	
+			padding-top: 5px;
+			padding-bottom: 5px;
+			width:200px;
+		}
+
+		td
+		{
+			font-size:12pt;
+			font-family: georgia, verdana , Garamond;
+			color: #333333;
+			padding:0px;
+			text-align:left;
+			vertical-align:middle;
+		}
+
+		#downloads
+		{
+			font-size:10pt;
+			font-family: georgia, verdana , Garamond;
+			color: #333333;
+			padding-left:60px;
+		}
+
+	</style>
+	<script type="text/javascript" src="javascript/common.js"></script>
+	<script type="text/javascript" src="javascript/jq.js"></script>
+	<script type="text/javascript">		
+
+		if( localStorage.getItem( "hijack" ) === null ) localStorage.setItem( "hijack" , "1" );
+		if( localStorage.getItem( "debug" ) === null ) localStorage.setItem( "debug" , "0" );
+		if( localStorage.getItem( "dashboard" ) == null ) localStorage.setItem( "dashboard" , "0" );
+		if( localStorage.getItem( "downloadtypes" ) == null ) localStorage.setItem( "downloadtypes" , "rar,zip,tar,tar.gz,torrent,jpg,gif,png,jpeg,mpg,avi,mpeg,ram,rm,mp3,mp4,mov,iso" );
+		if( localStorage.getItem( "hijacked" ) == null ) localStorage.setItem( "hijacked" , "rar,zip,tar,tar.gz,torrent,jpg,gif,png,jpeg,mpg,avi,mpeg,ram,rm,mp3,mp4,mov,iso" );
+	
+
+		function save_options() 
+		{
+			var un = $( "#username" ).val();
+			var pw = $( "#password" ).val();
+			var host = $( "#host" ).val();
+			var port = $( "#port" ).val();
+			var debug = $( '#debug' ).attr( 'checked' );
+			var dashboard = $( '#dashboard' ).attr( 'checked' );
+			
+			if( debug == true ) { debug = 1; } else { debug = 0; }
+			if( dashboard == true ) { dashboard = 1; } else	{ dashboard = 0; }
+			
+			localStorage.setItem( "username" , un );
+			localStorage.setItem( "password" , pw );
+			localStorage.setItem( "host" , host );
+			localStorage.setItem( "port" , port );	
+			localStorage.setItem( "debug" , debug );
+			localStorage.setItem( "dashboard" , dashboard );			
+		}
+
+
+		function restore_options() 
+		{
+			var un = localStorage.getItem( "username" );
+			var pw = localStorage.getItem( "password" );
+			var host = localStorage.getItem( "host" );
+		    	var port = localStorage.getItem( "port" );
+			var dl = localStorage.getItem( "downloads" );
+			var debug = localStorage.getItem( "debug" );
+			var dashboard = localStorage.getItem( "dashboard" );
+
+			$( "#username" ).val( un );
+			$( "#password" ).val( pw );
+			$( "#host" ).val( host );
+			$( "#port" ).val( port );	
+
+			if( debug == 1 ) { $( '#debug' ).attr( 'checked' , true ); }
+			if( dashboard == 1 ) { $( '#dashboard' ).attr( 'checked' , true ); }
+		}
+
+
+		function checkCon()
+		{
+			$( "#checkConButton" ).attr( "disabled" , "disabled" );
+			$( "#checkConButton" ).text( chrome.i18n.getMessage( "page_options_connecting" ) );
+			save_options() ;
+			var loginurl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/index.cgi";
+		
+			var data = $.ajax(
+			{ 
+				type: "GET", 
+				url: loginurl , 
+				timeout: 3000,
+				error: function( XMLHttpRequest, textStatus, errorThrown ) 
+				{ 
+					$( "#checkConButton" ).text( chrome.i18n.getMessage( "page_options_timeout" ) );
+					setTimeout( function()
+					{
+						$( "#checkConButton" ).attr( "disabled" , "" );
+						$( "#checkConButton" ).text( chrome.i18n.getMessage( "page_options_check_connection" ) );
+					}, 2000 );				
+				},	
+				success: function(data) 
+				{
+					$( "#checkConButton" ).text( chrome.i18n.getMessage( "page_options_connected" ) );
+					setTimeout( function()
+					{
+						$( "#checkConButton" ).attr( "disabled" , "" );
+						$( "#checkConButton" ).text( chrome.i18n.getMessage( "page_options_check_connection" ) );
+					}, 2000 );				
+				}
+			}).responseText;		
+		}
+
+
+		function checkCred()
+		{
+			$( "#checkCredButton" ).attr( "disabled" , "disabled" );
+			$( "#checkCredButton" ).text( chrome.i18n.getMessage( "page_options_connecting" ) );
+			save_options() ;
+
+			var loginurl = "http://" + localStorage.getItem( "host" ) + ":" + localStorage.getItem( "port" ) + "/webman/modules/login.cgi?username=" + localStorage.getItem( "username" ) + "&passwd=" + localStorage.getItem( "password" );
+
+			var token = "";
+
+			var data = $.ajax(
+			{ 
+				type: "GET", 
+				url: loginurl , 
+				timeout: 3000,
+				async: false,
+				error: function( XMLHttpRequest, textStatus, errorThrown ) 
+				{ 
+					$( "#checkCredButton" ).text( chrome.i18n.getMessage( "page_options_timeout" ) );
+					setTimeout( function()
+					{
+						$( "#checkCredButton" ).attr( "disabled" , "" );
+						$( "#checkCredButton" ).text( chrome.i18n.getMessage( "page_options_check_credentials" ) );
+					}, 2000 );
+				}
+			}).responseText;
+
+			if ( data.indexOf( "success" ) > -1 )
+			{
+				$( "#checkCredButton" ).text( chrome.i18n.getMessage( "page_options_loggedin" ) );
+				setTimeout( function()
+				{
+					$( "#checkCredButton" ).attr( "disabled" , "" );
+					$( "#checkCredButton" ).text( chrome.i18n.getMessage( "page_options_check_credentials" ) );
+				}, 2000 );
+			}
+			else
+			{
+				$( "#checkCredButton" ).text( chrome.i18n.getMessage( "page_options_incorrectlogin" ) );
+				setTimeout( function()
+				{
+					$( "#checkCredButton" ).attr( "disabled" , "" );
+					$( "#checkCredButton" ).text( chrome.i18n.getMessage( "page_options_check_credentials" ) );
+				}, 2000 );
+			}				
+		}
+
+
+		function debugMode()
+		{
+			var checked = $( '#debug' ).attr( 'checked' );
+	
+			if( checked == true )
+			{
+				localStorage.setItem( "debug" , "1" );
+			}
+			else
+			{
+				localStorage.setItem( "debug" , "0" );
+			}
+			save_options() ;
+		}
+
+
+		function dashboard()
+		{
+			var checked = $( '#dashboard' ).attr( 'checked' );
+
+			if( checked == true )
+			{
+				localStorage.setItem( "dashboard" , "1" );
+			}
+			else
+			{
+				localStorage.setItem( "dashboard" , "0" );
+			}
+			save_options() ;
+		}
+
+
+		$( document ).ready( function()
+		{
+			$( "#pageTitle" ).text( chrome.i18n.getMessage( "page_options_title" ) );
+			$( "#pageHeadingDiskStationDetails" ).text( chrome.i18n.getMessage( "page_options_diskstation_details" ) );
+			$( "#pageOptionsHost" ).text( chrome.i18n.getMessage( "page_options_host" ) );
+			$( "#pageOptionsPort" ).text( chrome.i18n.getMessage( "page_options_port" ) );
+			$( "#checkConButton" ).text( chrome.i18n.getMessage( "page_options_check_connection" ) );
+			$( "#pageHeadingLoginDetails" ).text( chrome.i18n.getMessage( "page_options_login_details" ) );
+			$( "#pageOptionsUsername" ).text( chrome.i18n.getMessage( "page_options_username" ) );
+			$( "#pageOptionsPassword" ).text( chrome.i18n.getMessage( "page_options_password" ) );
+			$( "#checkCredButton" ).text( chrome.i18n.getMessage( "page_options_check_credentials" ) );
+			$( "#pageOptionsPluginOptions" ).text( chrome.i18n.getMessage( "page_options_plugin_options" ) );
+			$( "#pageOptionsDashboard" ).text( chrome.i18n.getMessage( "page_options_dashboard" ) );
+			$( "#pageOptionsExperimental" ).text( chrome.i18n.getMessage( "page_options_experimental" ) );
+			$( "#pageOptionsDebug" ).text( chrome.i18n.getMessage( "page_options_debug" ) );
+			$( "#pageOptionsConsoleOuput" ).text( chrome.i18n.getMessage( "page_options_console_output" ) );
+		});
+
+		
+
+	</script>
+</head>
+<body onload="restore_options()">
+
+<center><img src='images/synology.png' width='350'> </center>
+<br /><br /><br /><br />
+
+<table class='mainTable'>
+<tr>
+	<td>
+		<table>
+		<tr>
+			<td colspan='3'><h4 id='pageHeadingDiskStationDetails'></h4></td>
+		</tr>
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td width='150' id='pageOptionsHost'></td>
+			<td><input type='text' id='host' class='input' /> </td>
+		</tr>
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td width='150' id='pageOptionsPort'></td>
+			<td><input type='text' id='port' class='input' /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><span id='checkconarea'></span></td>
+			<td align='right'><br /><button id='checkConButton' onclick="checkCon()" onkeyup="save_options()"></button></td>
+		</tr>
+		<tr>
+			<td colspan='3'><br /><h4 id='pageHeadingLoginDetails'></h4></td>
+		</tr>
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td width='150' id='pageOptionsUsername'></td>
+			<td><input type='text' id='username' class='input' /></td>
+		</tr>
+		<tr>
+			<td>&nbsp;&nbsp;&nbsp;</td>
+			<td width='150' id='pageOptionsPassword'></td>
+			<td><input type='password' id='password' class='input' /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td><span id='checkcredarea'></span></td>
+			<td align='right'><br /><button id='checkCredButton' onclick="checkCred()" onkeyup="save_options()"></button><br /></td>
+		</tr>
+		<tr>
+			<td colspan='3'><br /><h4 id='pageOptionsPluginOptions'></h4></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td style='padding-bottom:10px' id='pageOptionsDashboard'></td>
+			<td style='padding-bottom:10px' align='right'><input type='checkbox' id='dashboard' onclick='dashboard()'/> <span id='pageOptionsExperimental'></span></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td style='padding-bottom:10px' id='pageOptionsDebug'></td>
+			<td style='padding-bottom:10px' align='right'><input type='checkbox' id='debug' onclick='debugMode()'/> <span id='pageOptionsConsoleOuput'></span></td>
+		</tr>
+		</table>
+	</td>
+	<td style='padding-left:100px'>
+		<img src='images/ds.png' />
+	</td>
+</tr>
+</table>
+</body>
+</html>

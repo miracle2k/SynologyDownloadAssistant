@@ -1,0 +1,231 @@
+<html>
+<head>
+	<title>Synology Download Assistant Update Received</title>
+	<style>
+
+		body
+		{
+			margin:25px;
+			font-family: georgia, verdana , Garamond;
+			color: #333333;
+			background-attachment: fixed;
+			background-image: url(images/ezbg.jpg);
+			background-repeat: no-repeat;
+			background-position: right top;
+			background-color: #FFFFFF;
+			font-size:10pt;
+		}
+
+		pre
+		{
+			color: #000;
+		}
+
+	</style>
+	<script type="text/javascript" src="javascript/common.js"></script>
+	<script type="text/javascript" src="javascript/jq.js"></script>
+	<script type="text/javascript">
+
+		function init()
+		{
+			localStorage.setItem( "version" , version );
+			$( '#version' ).text( "Download Assistant updated to version " + version );
+		}	
+
+	</script>
+</head>
+<body onload="init()">
+
+	<center><img src='images/synology.png' width='350'>
+	<br /><br />
+	<h2 id='version'></h2>
+	<pre style=' text-align:left; margin-left:auto; margin-right:auto; width:600px'>
+
+#################################################################################
+# Version 1.75
+#################################################################################
+
+ 1. SSL support
+ 2. Bug fixes
+
+
+#################################################################################
+# Version 1.73
+#################################################################################
+
+ 1. Language Translations for 43 languages
+
+ bg  ca  da  el  
+ en_GB  es  et  
+ fil  hi  hu  it  
+ lt  nb  pt  ru  
+ sl  sv th  uk  
+ zh  ar  cs  de  
+ en  en_US fi  
+ fr  he  hr  id  
+ ja  ko  lv  nl  
+ pl ro  sk  sr  
+ sw  tr  vi  
+
+#################################################################################
+# Version 1.71
+#################################################################################
+
+ 1. Fix for options page, false reporting of sucessfull login
+
+#################################################################################
+# Version 1.69
+#################################################################################
+
+ 1. Speed improvement for popup page
+
+#################################################################################
+# Version 1.68
+#################################################################################
+
+ 1. Added French and Hungarian Support
+        French : Tom Granger
+     Hungarian : Joc
+
+#################################################################################
+# Version 1.67
+#################################################################################
+
+ 1. Minor bug fix, downloads weren't showing!
+
+#################################################################################
+# Version 1.66
+#################################################################################
+
+ 1. Addeded multilingual support
+ 2. To get your language ( personalized )	
+	
+        am ar bg bn ca cs da de el en en_GB en_US es es_419 et fi fil fr 
+        gu he hi hr hu id it ja kn ko lt lv ml mr nb nl or pl pt pt_BR 
+        pt_PT ro ru sk sl sr sv sw ta te th tr uk vi zh zh_CN zh_TW
+
+	Downlaod the following file
+	http://www.feeditout.com/chrome/SynologyDownloadAssistant/messages.json
+
+	and send it to dave@feeditout.com
+
+	only change 
+	
+	"message" = " CHANGE THIS "
+
+	subject synology translation
+	body yo
+	attachment messages.json
+
+ 3. All other languages will be translated with google translate in next release
+
+#################################################################################
+# Version 1.62
+#################################################################################
+
+ 1. Added Download manager from popup menu
+
+
+#################################################################################
+# Version 1.57
+#################################################################################
+
+ 1. Added support for all types specified  ( download all )
+ 2. Bug fix, for aw snap ( that ocassionaly came up )
+
+
+#################################################################################
+# Version 1.56
+#################################################################################
+
+ 1. Auto checks for updates
+ 2. more cleanup and bug fixes
+
+#################################################################################
+# Version 1.54
+#################################################################################
+
+ 1. Added upgrade page, since google fails to notify you of updates!
+ 2. Added prompt for download all option ( stop you downloading 200 images ) :)
+ 3. Some other fixes
+ 4. Code cleanups
+
+
+#################################################################################
+# Version 1.52
+#################################################################################
+
+ 1. New popup to the right of location bar ( new images )
+
+ >>> Settings
+ >>>>>> Download all types, change download all types on the fly
+ >>>>>> Hi-Jack Types, next release, still hijacks torrents only
+ >>> Download All on page ( working )
+ >>> Download all images ( working )
+ >>> Turn on / off link hijacking on the fly ( no page refresh )
+
+ 2. Numerous other improvements
+
+
+#################################################################################
+#Version 1.33
+#################################################################################
+note this release is work in progress, working on webpage dashboard integration
+
+ 1. cleaned up options page
+ 2. numerous bug fixes and code improvements
+ 3. experimental dashboard
+ 4. started support for ssl
+
+
+#################################################################################
+# Version 1.26
+#################################################################################
+
+ 1. Get notifications of complete downloads
+ 2. code cleanup
+
+	see screenshots for notifications
+
+
+#################################################################################
+# Version 1.23
+#################################################################################
+
+ 1. Minor improvements.. 
+ 2. removed additional onclick handlers from torrent links
+ 3. Changed link tool tip to "Download with diskstation"
+
+
+#################################################################################
+# Version 1.21
+#################################################################################
+
+ 1. Add support for all sites that have torrent links in the format http* .torrrent.
+
+	Added special support for
+	 a. www.mininova.org
+	 b. www.torrentportal.com
+	 c. torrentreactor.net
+
+	many more
+
+
+#################################################################################
+# Version 1.11
+#################################################################################
+
+ 1. Changed notification type ( See screenshot )
+ 2. Updated options page
+
+
+#################################################################################
+# Version 1.0
+#################################################################################
+
+	This is the first release version.
+
+	</pre>
+	</center>
+</body>
+</html>

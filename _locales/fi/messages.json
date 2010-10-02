@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Download Assistant"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Lataa suoraan Synology Diskstation - Powered by JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Download Assistant Asetukset"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Details"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Isäntä"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Satama"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Tarkista liitäntä"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Käyttäjätunnus"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Salasana"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Tarkista Valtakirjat"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Valinnat"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Kojelauta"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Kokeellinen"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Debug"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Paljon lohduttaa tuotoksen"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Yhdistetään ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Yhteydessä!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Aikakatkaistiin!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Kirjautunut sisään!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Väärä Kirjaudu!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "Onnistuneesti lisätty:"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "Ei downloadeja latauksessa jonossa ..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "Tiedostonimi"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "Edistyminen"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "ja"
+  },
+
+  "page_popup_page":
+  {
+    "message": "Sivu"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "Ladataan ..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "URL"
+  },
+
+  "page_popup_download":
+  {
+    "message": "Lataa"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "Lataa kaikki"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "Hi-Jack"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "Valmiustila ..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "Asetukset"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "Lataa kuvat"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "Hi-Jack linkit"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "Download Manager"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "Lataa Diskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "Virhe lähettäminen Lataa"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "Onnistuneesti lisätty Download"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "Ole hyvä unjack ensimmäinen"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "Lataa kaikki tiedostot"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "Lataa kaikki kuvat"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "Oletko varma että haluat ladata"
+  },
+
+  "contentscript_files":
+  {
+    "message": "kuvaa"
+  },
+
+  "contentscript_images":
+  {
+    "message": "kuvat"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "Peruuttaa"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "Pysty kirjautumaan, tarkista käyttäjätunnuksen, salasanan ja verkko-osoitteen diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "on valmis!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "Uusi päivitys saatavilla!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "Siirry laajennuksia. Valitse Kehittäjä-tila ja sitten Päivitä laajennukset nyt"
+  }
+
+}
+

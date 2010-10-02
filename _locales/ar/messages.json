@@ -1,0 +1,255 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology حمل مساعد"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "تنزيل مباشرة إلى Diskstation Synology الخاص -- بدعم من مسج!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology تحميل خيارات مساعد"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation تفاصيل"
+  },
+
+  "page_options_host": 
+  {
+    "message": "مضيف"
+  },
+
+  "page_options_port": 
+  {
+    "message": "المنفذ"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "تحقق من اتصال"
+  },
+
+  "page_options_username": 
+  {
+    "message": "اسم المستخدم"
+  },
+
+  "page_options_password": 
+  {
+    "message": "كلمة السر"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "فحص وثائق التفويض"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "خيارات البرنامج المساعد"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "لوحة القيادة"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "تجريبي"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "التصحيح"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "الكثير من وحدة الانتاج"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "الاتصال..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "متصل!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "مهلة!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "تسجيل الدخول!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "تسجيل الدخول غير صحيحة!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "وأضاف بنجاح :"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "لا التنزيلات في قائمة انتظار التحميل..."
+  },
+
+  "page_popup_filename":
+  {
+    "message": "اسم الملف"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "تقدم"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "من"
+  },
+
+  "page_popup_page":
+  {
+    "message": "صفحة"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "تحميل..."
+  },
+
+  "page_popup_url":
+  {
+    "message": "عنوان الموقع"
+  },
+
+  "page_popup_download":
+  {
+    "message": "تنزيل"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "تحميل جميع"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "مرحبا جاك"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "الانتظار..."
+  },
+
+  "page_popup_settings":
+  {
+    "message": "إعدادات"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "تحميل صور"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "مرحبا جاك وصلات"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "مدير تحميل"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "تنزيل وDiskstation"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "الخطأ تقديم تحميل"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "وأضاف تحميل بنجاح"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "الرجاء unjack الأولى"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "تحميل ملفات جميع"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "تنزيل كل الصور"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "هل أنت متأكد أنك تريد تحميل"
+  },
+
+  "contentscript_files":
+  {
+    "message": "الملفات"
+  },
+
+  "contentscript_images":
+  {
+    "message": "الصور"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "إلغاء"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "غير قادر على الدخول ، والتحقق من اسم المستخدم وكلمة السر وعنوان الشبكة الخاص diskstation"
+  },
+
+  "page_background_completed":
+  {
+    "message": "انتهت!"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "جديد تحديث متوفر!"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "انتقل إلى الملحقات. انقر فوق وضع المطور ومن ثم ملحقات تحديث الآن"
+  }
+
+
+}
+

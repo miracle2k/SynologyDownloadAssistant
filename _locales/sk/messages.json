@@ -1,0 +1,254 @@
+{
+
+  "chrome_extension_name": 
+  {
+    "message": "Synology Stiahnuť asistent"
+  },
+
+  "chrome_extension_description": 
+  {
+    "message": "Stiahnuť priamo do svojho Synology Diskstation - Powered JQuery!"
+  },
+
+  "page_options_title": 
+  {
+    "message": "Synology Stiahnuť asistent Možnosti"
+  },
+
+  "page_options_diskstation_details": 
+  {
+    "message": "Diskstation Podrobnosti"
+  },
+
+  "page_options_host": 
+  {
+    "message": "Hostiteľ"
+  },
+
+  "page_options_port": 
+  {
+    "message": "Prístav"
+  },
+
+  "page_options_check_connection": 
+  {
+    "message": "Skontrolujte pripojenie"
+  },
+
+  "page_options_username": 
+  {
+    "message": "Užívateľské meno"
+  },
+
+  "page_options_password": 
+  {
+    "message": "Heslo"
+  },
+
+  "page_options_check_credentials": 
+  {
+    "message": "Skontrolujte, či poverenie"
+  },
+
+  "page_options_plugin_options": 
+  {
+    "message": "Plugin Možnosti"
+  },
+
+  "page_options_dashboard": 
+  {
+    "message": "Palubná doska"
+  },
+
+  "page_options_experimental": 
+  {
+    "message": "Experimentálne"
+  },
+
+  "page_options_debug": 
+  {
+    "message": "Ladiť"
+  },
+
+  "page_options_console_output": 
+  {
+    "message": "Spousta konzolu"
+  },
+
+  "page_options_connecting":
+  {
+    "message": "Pripojenie ..."
+  },
+
+  "page_options_connected":
+  {
+    "message": "Pripojené!"
+  },
+
+  "page_options_timeout":
+  {
+    "message": "Vypršal časový limit!"
+  },
+
+  "page_options_loggedin":
+  {
+    "message": "Prihlásený!"
+  },
+
+  "page_options_incorrectlogin":
+  {
+    "message": "Nesprávne prihlásiť!"
+  },
+
+  "page_popup_successful":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_queue_empty":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_filename":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_progress":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_pageof":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_page":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_downloading":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_url":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_download":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_downloadall":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_hijack":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_standby":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_settings":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_downloadallimages":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_hijacklinks":
+  {
+    "message": "failed"
+  },
+
+  "page_popup_downloadmanager":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_downloadwith":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_errorsubmit":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_sucesssubmit":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_unjackfirst":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_downloadallfiles":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_downloadallimages":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_areyousure":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_files":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_images":
+  {
+    "message": "failed"
+  },
+
+  "contentscript_cancel":
+  {
+    "message": "failed"
+  },
+
+  "page_background_loginerror":
+  {
+    "message": "failed"
+  },
+
+  "page_background_completed":
+  {
+    "message": "failed"
+  },
+
+  "page_background_newupdate":
+  {
+    "message": "failed"
+  },
+
+  "page_background_newupdate_help":
+  {
+    "message": "failed"
+  }
+
+}
+
