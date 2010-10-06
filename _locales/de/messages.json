@@ -1,76 +1,76 @@
 {
 
-  "chrome_extension_name": 
+  "chrome_extension_name":
   {
-    "message": "Synology Download-Assistenten"
+    "message": "Synology Download-Assistent"
   },
 
-  "chrome_extension_description": 
+  "chrome_extension_description":
   {
-    "message": "Download direkt auf Ihrem Synology Diskstation - Powered by JQuery!"
+    "message": "Download direkt auf Ihre Synology Diskstation - Powered by JQuery!"
   },
 
-  "page_options_title": 
+  "page_options_title":
   {
     "message": "Synology Assistant Download-Optionen"
   },
 
-  "page_options_diskstation_details": 
+  "page_options_diskstation_details":
   {
     "message": "Diskstation Details"
   },
 
-  "page_options_host": 
+  "page_options_host":
   {
-    "message": "Gastgeber"
+    "message": "Host"
   },
 
-  "page_options_port": 
+  "page_options_port":
   {
     "message": "Port"
   },
 
-  "page_options_check_connection": 
+  "page_options_check_connection":
   {
-    "message": "Check Connection"
+    "message": "Verbindung prüfen"
   },
 
-  "page_options_username": 
+  "page_options_username":
   {
     "message": "Benutzername"
   },
 
-  "page_options_password": 
+  "page_options_password":
   {
     "message": "Kennwort"
   },
 
-  "page_options_check_credentials": 
+  "page_options_check_credentials":
   {
-    "message": "Check Credentials"
+    "message": "Daten prüfen"
   },
 
-  "page_options_plugin_options": 
+  "page_options_plugin_options":
   {
     "message": "Plugin-Optionen"
   },
 
-  "page_options_dashboard": 
+  "page_options_dashboard":
   {
-    "message": "Armaturenbrett"
+    "message": "Dashboard"
   },
 
-  "page_options_experimental": 
+  "page_options_experimental":
   {
     "message": "Experimentell"
   },
 
-  "page_options_debug": 
+  "page_options_debug":
   {
     "message": "Debuggen"
   },
 
-  "page_options_console_output": 
+  "page_options_console_output":
   {
     "message": "Viele Ausgaben in der Konsole"
   },
@@ -82,17 +82,17 @@
 
   "page_options_connected":
   {
-    "message": "Connected!"
+    "message": "Verbunden!"
   },
 
   "page_options_timeout":
   {
-    "message": "Timed out!"
+    "message": "Zeitüberschreitung!"
   },
 
   "page_options_loggedin":
   {
-    "message": "Eingeloggt sein!"
+    "message": "Eingeloggt!"
   },
 
   "page_options_incorrectlogin":
@@ -107,7 +107,7 @@
 
   "page_popup_queue_empty":
   {
-    "message": "Keine Downloads in Download-Warteschlange ..."
+    "message": "Keine Downloads in Warteschlange ..."
   },
 
   "page_popup_filename":
@@ -132,7 +132,7 @@
 
   "page_popup_downloading":
   {
-    "message": "Downloading ..."
+    "message": "Wird heruntergeladen..."
   },
 
   "page_popup_url":
@@ -147,17 +147,17 @@
 
   "page_popup_downloadall":
   {
-    "message": "Alle Download"
+    "message": "Alle Herunterladen"
   },
 
   "page_popup_hijack":
   {
-    "message": "Hallo Jack-"
+    "message": "Links abfangen"
   },
 
   "page_popup_standby":
   {
-    "message": "Standby ..."
+    "message": "Bitte warten..."
   },
 
   "page_popup_settings":
@@ -172,32 +172,32 @@
 
   "page_popup_hijacklinks":
   {
-    "message": "Hallo Jack-Links"
+    "message": "Links abfangen"
   },
 
   "page_popup_downloadmanager":
   {
-    "message": "Download Manager"
+    "message": "Downloadmanager"
   },
 
   "contentscript_downloadwith":
   {
-    "message": "Download Mit Diskstation"
+    "message": "Download mit DiskStation"
   },
 
   "contentscript_errorsubmit":
   {
-    "message": "Fehler einreichen Download"
+    "message": "Fehler beim Übermitteln des Downloads"
   },
 
   "contentscript_sucesssubmit":
   {
-    "message": "Erfolgreich Hinzugefügt Download"
+    "message": "Download erfolgreich hinzugefügt"
   },
 
   "contentscript_unjackfirst":
   {
-    "message": "Bitte unjack ersten"
+    "message": "Links abfangen zuerst deaktivieren"
   },
 
   "contentscript_downloadallfiles":
@@ -212,7 +212,7 @@
 
   "contentscript_areyousure":
   {
-    "message": "Sind Sie sicher, das Sie herunterladen möchten"
+    "message": "Sind Sie sicher, das Sie herunterladen möchten?"
   },
 
   "contentscript_files":
@@ -227,17 +227,17 @@
 
   "contentscript_cancel":
   {
-    "message": "Stornieren"
+    "message": "Abbrechen"
   },
 
   "page_background_loginerror":
   {
-    "message": "Anmeldung nicht möglich, überprüfen Sie den Benutzername, Passwort und Netzwerk-Adresse zu Ihrem Diskstation"
+    "message": "Anmeldung nicht möglich, überprüfen Sie den Benutzernamen, Passwort und Netzwerk-Adresse zu Ihrer DiskStation"
   },
 
   "page_background_completed":
   {
-    "message": "abgeschlossen hat!"
+    "message": "ist fertig!"
   },
 
   "page_background_newupdate":
@@ -247,7 +247,7 @@
 
   "page_background_newupdate_help":
   {
-    "message": "Zur Erweiterungen. Klicken Sie auf Developer-Modus und dann Update-Erweiterungen jetzt"
+    "message": "Gehen Sie zu Erweiterungen, klicken Sie auf Entwickler-Modus und dann 'Erweiterungen jetzt aktualisieren'"
   }
 
 }
